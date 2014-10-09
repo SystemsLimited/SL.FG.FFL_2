@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42281FCC-057C-4A2C-BDA3-7A25172233C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SL.FG.FFL</RootNamespace>
+    <AssemblyName>SL.FG.FFL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventReceiver\AddLinkToMSA\AddLinkToMSA.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Model.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Email.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebParts\AddEventsToMSASchedule\AddEventsToMSASchedule.cs" />
+    <Compile Include="WebParts\AddEventsToMSASchedule\AddEventsToMSAScheduleUserControl.ascx.cs">
+      <DependentUpon>AddEventsToMSAScheduleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\AddEventsToMSASchedule\AddEventsToMSAScheduleUserControl.ascx.designer.cs">
+      <DependentUpon>AddEventsToMSAScheduleUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FlashReportOffForm\FlashReportOffForm.ascx.cs">
+      <DependentUpon>FlashReportOffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FlashReportOffForm\FlashReportOffForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlashReportOffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FlashReportOnForm\FlashReportOnForm.ascx.cs">
+      <DependentUpon>FlashReportOnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FlashReportOnForm\FlashReportOnForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlashReportOnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IntermediateOffForm\IntermediateOffForm.ascx.cs">
+      <DependentUpon>IntermediateOffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IntermediateOffForm\IntermediateOffForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IntermediateOffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IntermediateOnForm\IntermediateOnForm.ascx.cs">
+      <DependentUpon>IntermediateOnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IntermediateOnForm\IntermediateOnForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IntermediateOnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01DIForm\IR01DIForm.ascx.cs">
+      <DependentUpon>IR01DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01DIForm\IR01DIForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IR01DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01OffForm\IR01OffForm.ascx.cs">
+      <DependentUpon>IR01OffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01OffForm\IR01OffForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IR01OffForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01OnForm\IR01OnForm.ascx.cs">
+      <DependentUpon>IR01OnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR01OnForm\IR01OnForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IR01OnForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR03DIForm\IR03DIForm.ascx.cs">
+      <DependentUpon>IR03DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR03DIForm\IR03DIForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IR03DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR05DIForm\IR05DIForm.ascx.cs">
+      <DependentUpon>IR05DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IR05DIForm\IR05DIForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IR05DIForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IRRecommendationForm\IRRecommendationForm.ascx.cs">
+      <DependentUpon>IRRecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\IRRecommendationForm\IRRecommendationForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IRRecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSAForm\MSAForm.ascx.cs">
+      <DependentUpon>MSAForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSAForm\MSAForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSAForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx.cs">
+      <DependentUpon>MSARecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSARecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WaiverForm\WaiverForm.ascx.cs">
+      <DependentUpon>WaiverForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WaiverForm\WaiverForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WaiverForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueue.ascx.cs">
+      <DependentUpon>WorkQueue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueue.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkQueue.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ContentType\FFLMSAScheduleContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4828ae25-b245-4811-a0bc-814981c9959e}</SharePointProjectItemId>
+    </None>
+    <None Include="EventReceiver\AddLinkToMSA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4fb4533-b5e1-43b3-93d8-33cf6ecee72a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{014263a7-8a35-48c8-b547-4b391f67c9dc}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47bca9c1-1a0b-413a-8b46-f4d8d6b07f71}</SharePointProjectItemId>
+    </None>
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ContentType\FFLMSAScheduleContentType\Elements.xml" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\Style.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\news\news.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\news\vertical.news.slider.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\news\vertical.news.slider.js" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\jquery.mousewheel.js" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.js" />
+    <Content Include="Layouts\SL.FG.FFL\External\slider\flexslider.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.svg" />
+    <Content Include="Layouts\SL.FG.FFL\External\slider\jquery.flexslider.js" />
+    <Content Include="Layouts\SL.FG.FFL\Images\img1.jpg" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR01DI\IRR01DIForm.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR01DI\IRR01DIForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR03DI\IRR03DIForm.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR03DI\IRR03DIForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR05DI\IR5OffForm.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\IRR05DI\IR5OffForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\FlashReportOff.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\FlashReportOn.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\IR01Off.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\IR01On.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\IR05.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\Validation\Waiver.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\WorkQueue\WorkQueue.js" />
+    <None Include="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.eot" />
+    <None Include="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.ttf" />
+    <None Include="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.woff" />
+    <None Include="Lists\Area\AreaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2acaf8c7-b51f-4c14-aa01-88ad7a4bc7ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Area\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5222cd64-811b-41da-bbc6-a31c405af02a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\CommonDictionaryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2423cdb1-7e1c-45d4-a0bb-336de1e7a2fe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f168a00-0042-428f-976b-dd1b1e0b8263}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\DepartmentInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3f018ebd-4bbd-4930-aaba-8fd566c63aef}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{621959a2-4302-420b-a40b-da50d4f0336b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FlashReportOff\FlashReportOffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3a78b02d-2811-4eae-a7d3-a4e5e86066ad}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FlashReportOff\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8ee9e5da-f87a-468e-8d2d-7059c87355d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FlashReport\FlashReportInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73acc1c9-8c31-4b15-8bf9-4bd49094d8f5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FlashReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85cd48d4-2b0b-4253-8171-c756004efbf7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IIRRecommendationOnJob\IIRRecommendationOnJobInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{facb6bf7-493f-45aa-af08-6e43ec52be38}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IIRRecommendationOnJob\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0df2a33c-5e1b-40b8-a385-ee36d04e7484}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IIRRecommendation_OffJob\IIRRecommendation_OffJobInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3cbc34b9-dcb6-4941-8645-4f4a6e87834d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IIRRecommendation_OffJob\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6e599cd0-eca8-49f2-9366-b0ff90cb6844}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IncidentCategory\IncidentCategoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e100ac71-d356-488e-8c28-55c18fec4c56}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IncidentCategory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb363436-d9a7-4b53-b906-658f51a5f0db}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\InjuryCategory\InjuryCategoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c14684f-7635-41c0-885e-ef09becf2e04}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\InjuryCategory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bc16df08-6527-409b-9a8a-0ff613a0fb2c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-1-Off\IR-1-OffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fbc08726-6862-4839-a619-b3bb2c63b1a2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-1-Off\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0a3c6e0a-0e12-420f-8fb8-233b4ec6d368}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-1\IR-1Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6ba0c99a-856b-4070-9307-47d9903b53ad}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5cd13b79-9fe4-4e6f-92fc-33ca54d1a758}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-5-Off\IR-5-OffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b63cc601-8e19-4ffc-9bd3-a56b17463aef}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR-5-Off\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a70bc2bc-1b3a-49a1-a2eb-e600a102f7d7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR01DI\IR01DIInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{71cc0619-769c-4e47-b5f3-bb288714128e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR01DI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{575be80e-38b8-42d2-9516-6d569c72e35b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR03DI\IR03DIInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e6c2f7e6-26e1-4da8-9865-31a8c4c254b7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IR03DI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fc055442-96fd-4623-9be8-b90781e90421}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IRWaiverOff\IRWaiverOffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f90e348c-8dac-48d7-a711-47eafbf1ff1b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IRWaiverOff\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2f33c79e-3232-43b0-9e47-12eab25ede2d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\MSAContactDetailInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b5931a4-7e59-4328-acde-79e5c43508fc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{36a4734c-6571-4fa3-8b75-88492089518d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\MSARecommendationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f8acbaa-2f05-4d29-bd1b-f92f1b9dce91}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67ee8071-4cfb-4a13-b7fc-ae93e6fa3ceb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\MSAScheduleInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{412ee5d3-3ecd-449c-9402-d64ea9945dd6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f7c9a06-d3a8-4ffd-9c93-57325eb090a2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\MSAInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{39f3ddf8-df38-41b7-80d8-9317f732800f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5d3cc453-820a-47f1-8ce2-9e23a0a6d587}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SectionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{110d6dd0-94ab-4b00-b410-e9013f573b4b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{689eb3f9-11ec-438c-87c2-c322d39d78e8}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99a675d1-968b-4d65-8248-c950dc5f9419}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPage\System_FG_bootstrap-3.master" />
+    <None Include="Package\Package.package">
+      <PackageId>{e7a5523d-f2bc-43f2-9103-fd85b9dcc770}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SiteColumn\FFLArea\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a14d28b3-8488-4f6c-990b-37c89ab4c28f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLDepartments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{20093254-99bc-49b1-b85b-fb340dcd72d4}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLScheduleDesignation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{718ca556-9b26-4ac8-9aa7-4d2a2fa30523}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLScheduleName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ecf4a932-59d6-479c-99c0-1e9889e7da1b}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLSection\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2434681-ba81-43eb-a193-089248b3a19e}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\MSAFormLink\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cbb09abe-6687-482d-aa07-9a5aea02cd30}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\MSAStatus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2a9ce134-f8d6-4869-9871-d1b0e553ebc0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\AddEventsToMSASchedule\AddEventsToMSASchedule.webpart" />
+    <None Include="WebParts\AddEventsToMSASchedule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6281206f-daad-4353-9d16-e4d78cf7ac38}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\FlashReportOffForm\FlashReportOffForm.webpart" />
+    <None Include="WebParts\FlashReportOffForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73b8b500-bce3-45f4-980b-afc020324727}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\FlashReportOnForm\FlashReportOnForm.webpart" />
+    <None Include="WebParts\FlashReportOnForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e8b2c138-2ee9-4f6a-be2c-de0fc63a9364}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IntermediateOffForm\IntermediateOffForm.webpart" />
+    <None Include="WebParts\IntermediateOffForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8308a0ce-85cb-4976-8300-981e2aff3a74}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IntermediateOnForm\IntermediateOnForm.webpart" />
+    <None Include="WebParts\IntermediateOnForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b3886e64-a336-4ebc-9d9e-6da47f4fe3a3}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IR01DIForm\IR01DIForm.webpart" />
+    <None Include="WebParts\IR01DIForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{19bc9426-f1a8-404c-9ed2-0412e0a49e1f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IR01OffForm\IR01OffForm.webpart" />
+    <None Include="WebParts\IR01OffForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{599268aa-3f39-4719-9863-7826ee195420}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IR01OnForm\IR01OnForm.webpart" />
+    <None Include="WebParts\IR01OnForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c445c329-f6bc-4fc2-9421-f4498cc2043c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IR03DIForm\IR03DIForm.webpart" />
+    <None Include="WebParts\IR03DIForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bb667629-3226-449f-aa1a-56baad123b09}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IR05DIForm\IR05DIForm.webpart" />
+    <None Include="WebParts\IR05DIForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c819d3f-b9ed-4251-b075-4be1e1b080cd}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\IRRecommendationForm\IRRecommendationForm.webpart" />
+    <None Include="WebParts\IRRecommendationForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52a3ed13-83e6-4f90-9b29-0b79ecb032b0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MSAForm\MSAForm.webpart" />
+    <None Include="WebParts\MSAForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2cb4c463-91ee-4ced-b52d-5fb8db5b327e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MSARecommendationForm\MSARecommendationForm.webpart" />
+    <None Include="WebParts\MSARecommendationForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ee675e4-fede-4930-99f4-35764ae386ea}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WaiverForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4babc4b0-7161-4972-84c2-7ebb5764043e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WaiverForm\WaiverForm.webpart" />
+    <None Include="WebParts\WorkQueue\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{370597a7-c382-4bc2-9dce-eb73c4bd7752}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorkQueue\WorkQueue.webpart" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EventReceiver\AddLinkToMSA\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\sp-responsive.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\FGStyle.css" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3-custom.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.min.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\jquery-1.9.1.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\jQuery.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MicrosoftAjax.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\pwcal2013.txt" />
+    <Content Include="Lists\Area\AreaInstance\Elements.xml" />
+    <Content Include="Lists\Area\Elements.xml" />
+    <Content Include="Lists\Area\Schema.xml" />
+    <Content Include="Lists\CommonDictionary\CommonDictionaryInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\CommonDictionary\Elements.xml" />
+    <Content Include="Lists\CommonDictionary\Schema.xml" />
+    <Content Include="Lists\Department\DepartmentInstance\Elements.xml" />
+    <Content Include="Lists\Department\Elements.xml" />
+    <Content Include="Lists\Department\Schema.xml" />
+    <Content Include="Lists\FlashReportOff\Elements.xml" />
+    <Content Include="Lists\FlashReportOff\FlashReportOffInstance\Elements.xml" />
+    <Content Include="Lists\FlashReportOff\Schema.xml" />
+    <Content Include="Lists\FlashReport\Elements.xml" />
+    <Content Include="Lists\FlashReport\FlashReportInstance\Elements.xml" />
+    <Content Include="Lists\FlashReport\Schema.xml" />
+    <Content Include="Lists\IIRRecommendationOnJob\Elements.xml" />
+    <Content Include="Lists\IIRRecommendationOnJob\IIRRecommendationOnJobInstance\Elements.xml" />
+    <Content Include="Lists\IIRRecommendationOnJob\Schema.xml" />
+    <Content Include="Lists\IIRRecommendation_OffJob\Elements.xml" />
+    <Content Include="Lists\IIRRecommendation_OffJob\IIRRecommendation_OffJobInstance\Elements.xml" />
+    <Content Include="Lists\IIRRecommendation_OffJob\Schema.xml" />
+    <Content Include="Lists\IncidentCategory\Elements.xml" />
+    <Content Include="Lists\IncidentCategory\IncidentCategoryInstance\Elements.xml" />
+    <Content Include="Lists\IncidentCategory\Schema.xml" />
+    <Content Include="Lists\InjuryCategory\Elements.xml" />
+    <Content Include="Lists\InjuryCategory\InjuryCategoryInstance\Elements.xml" />
+    <Content Include="Lists\InjuryCategory\Schema.xml" />
+    <Content Include="Lists\IR-1-Off\Elements.xml" />
+    <Content Include="Lists\IR-1-Off\IR-1-OffInstance\Elements.xml" />
+    <Content Include="Lists\IR-1-Off\Schema.xml" />
+    <Content Include="Lists\IR-1\Elements.xml" />
+    <Content Include="Lists\IR-1\IR-1Instance\Elements.xml" />
+    <Content Include="Lists\IR-1\Schema.xml" />
+    <Content Include="Lists\IR-5-Off\Elements.xml" />
+    <Content Include="Lists\IR-5-Off\IR-5-OffInstance\Elements.xml" />
+    <Content Include="Lists\IR-5-Off\Schema.xml" />
+    <Content Include="Lists\IR01DI\Elements.xml" />
+    <Content Include="Lists\IR01DI\IR01DIInstance\Elements.xml" />
+    <Content Include="Lists\IR01DI\Schema.xml" />
+    <Content Include="Lists\IR03DI\Elements.xml" />
+    <Content Include="Lists\IR03DI\IR03DIInstance\Elements.xml" />
+    <Content Include="Lists\IR03DI\Schema.xml" />
+    <Content Include="Lists\IRWaiverOff\Elements.xml" />
+    <Content Include="Lists\IRWaiverOff\IRWaiverOffInstance\Elements.xml" />
+    <Content Include="Lists\IRWaiverOff\Schema.xml" />
+    <Content Include="Lists\MSAContactDetail\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\MSAContactDetailInstance\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\Schema.xml" />
+    <Content Include="Lists\MSARecommendation\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\MSARecommendationInstance\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\Schema.xml" />
+    <Content Include="Lists\MSASchedule\Elements.xml" />
+    <Content Include="Lists\MSASchedule\MSAScheduleInstance\Elements.xml" />
+    <Content Include="Lists\MSASchedule\Schema.xml" />
+    <Content Include="Lists\MSA\Elements.xml" />
+    <Content Include="Lists\MSA\MSAInstance\Elements.xml" />
+    <Content Include="Lists\MSA\Schema.xml" />
+    <Content Include="Lists\Section\Elements.xml" />
+    <Content Include="Lists\Section\Schema.xml" />
+    <Content Include="Lists\Section\SectionInstance\Elements.xml" />
+    <Content Include="MasterPage\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteColumn\FFLArea\Elements.xml" />
+    <Content Include="SiteColumn\FFLDepartments\Elements.xml" />
+    <Content Include="SiteColumn\FFLScheduleDesignation\Elements.xml" />
+    <Content Include="SiteColumn\FFLScheduleName\Elements.xml" />
+    <Content Include="SiteColumn\FFLSection\Elements.xml" />
+    <Content Include="SiteColumn\MSAFormLink\Elements.xml" />
+    <Content Include="SiteColumn\MSAStatus\Elements.xml" />
+    <Content Include="WebParts\AddEventsToMSASchedule\AddEventsToMSAScheduleUserControl.ascx" />
+    <Content Include="WebParts\AddEventsToMSASchedule\Elements.xml" />
+    <Content Include="WebParts\FlashReportOffForm\Elements.xml" />
+    <Content Include="WebParts\FlashReportOffForm\FlashReportOffForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>FlashReportOffForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\FlashReportOnForm\Elements.xml" />
+    <Content Include="WebParts\FlashReportOnForm\FlashReportOnForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>FlashReportOnForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IntermediateOffForm\Elements.xml" />
+    <Content Include="WebParts\IntermediateOffForm\IntermediateOffForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IntermediateOffForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IntermediateOnForm\Elements.xml" />
+    <Content Include="WebParts\IntermediateOnForm\IntermediateOnForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IntermediateOnForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IR01DIForm\Elements.xml" />
+    <Content Include="WebParts\IR01DIForm\IR01DIForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IR01DIForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IR01OffForm\Elements.xml" />
+    <Content Include="WebParts\IR01OffForm\IR01OffForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IR01OffForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IR01OnForm\Elements.xml" />
+    <Content Include="WebParts\IR01OnForm\IR01OnForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IR01OnForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IR03DIForm\Elements.xml" />
+    <Content Include="WebParts\IR03DIForm\IR03DIForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IR03DIForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IR05DIForm\Elements.xml" />
+    <Content Include="WebParts\IR05DIForm\IR05DIForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IR05DIForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\IRRecommendationForm\Elements.xml" />
+    <Content Include="WebParts\IRRecommendationForm\IRRecommendationForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IRRecommendationForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\MSAForm\Elements.xml" />
+    <Content Include="WebParts\MSAForm\MSAForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>MSAForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\MSARecommendationForm\Elements.xml" />
+    <Content Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>MSARecommendationForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\WaiverForm\Elements.xml" />
+    <Content Include="WebParts\WaiverForm\WaiverForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>WaiverForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\WorkQueue\Elements.xml" />
+    <Content Include="WebParts\WorkQueue\WorkQueue.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>WorkQueue.ascx.g.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

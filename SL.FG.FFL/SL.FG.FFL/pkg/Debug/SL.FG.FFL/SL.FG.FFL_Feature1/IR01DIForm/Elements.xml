@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="IR01DIForm" List="113" Url="_catalogs/wp">
+    <File Path="IR01DIForm\IR01DIForm.webpart" Url="SL.FG.FFL_IR01DIForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="SL.FG.FFL" />
+    </File>
+  </Module>
+</Elements>

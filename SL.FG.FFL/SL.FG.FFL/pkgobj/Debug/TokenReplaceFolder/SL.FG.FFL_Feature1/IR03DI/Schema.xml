@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="IR03DI" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/IR03DI" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010045c60567527c434ab2ffe83115bec08e" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{29c5a494-1069-4734-a0a0-87e78a5bfb89}" Name="FlashReportID" /><FieldRef ID="{042c07b1-1dea-4854-b77c-1111afbac6d9}" Name="KeyFindings" /><FieldRef ID="{a033e30f-f65a-47cf-a1ab-79741306332e}" Name="PeopleInterviewed" /><FieldRef ID="{4dafb886-c183-4e2c-83b6-a2d2e5ee6b74}" Name="RootCauses" /><FieldRef ID="{79adbacd-8692-486c-ab5b-3d5b549adb74}" Name="Conclusion" /><FieldRef ID="{dad22e88-c221-4dd2-85b8-fb94d2aed426}" Name="RootCauses1" /><FieldRef ID="{afe2682e-e24b-4913-99c2-53010530fb09}" Name="HSEApprover" /><FieldRef ID="{bf04ebbf-ec7b-41d8-ac14-9805cfab1a7f}" Name="HSEComments" /><FieldRef ID="{3d9aec1b-07a2-4f54-803d-43a0898a6f00}" Name="IRRCQualityScore" /><FieldRef ID="{66c1e21d-9844-4326-9d5c-188df5182760}" Name="QualityAssessedBy" /><FieldRef ID="{a6ce4175-86c6-45f4-90b9-604feb82015c}" Name="Assignee" /><FieldRef ID="{02092764-fffa-4c4e-a6eb-a939d3349a7d}" Name="AssigneeEmail" /><FieldRef ID="{cf569c8c-492f-4e5d-96e3-adc44e101759}" Name="IncidentDescription" /><FieldRef ID="{77aa1cef-a688-439c-9de1-98676b38fec6}" Name="IsSubmitted" /><FieldRef ID="{d37fcc7f-9669-4484-a4d1-776aabf1b7c2}" Name="IsApproved" /><FieldRef ID="{521d98a1-2c61-4063-bf29-81a579919772}" Name="IsSavedAsDraft" /><FieldRef ID="{3a1620f7-8f68-47ad-b12d-180b9345f853}" Name="ApprovalDate1" /><FieldRef ID="{63d9d60b-5db2-47e1-bb6b-21747fcb8c5c}" Name="IncidentActionTaken" /><FieldRef ID="{ad3a9083-8bd5-4e5f-a8bf-f7c59463a783}" Name="ActualOrPotentialInquiry" /><FieldRef ID="{aa679120-3990-405f-914e-cc17ba298ae5}" Name="ProcessSafetyIncidents" /><FieldRef ID="{60cc9a11-9465-4944-99f8-7cc4b91a444d}" Name="MiscellaneousIncidents" /><FieldRef ID="{9b766c6b-d104-429f-a738-e862f253bbda}" Name="LateSubmissionReasons" /><FieldRef ID="{21e82cf7-bce5-4db4-b7b3-d05d5e823dc4}" Name="BasicActivityInProgress" /><FieldRef ID="{f67bd3d5-83ae-4886-b5dd-8148026be6b1}" Name="RiskBasedElements" /><FieldRef ID="{30f8d589-01c3-448c-87fe-96322ddc810a}" Name="CulturalBasedElements" /><FieldRef ID="{7023171c-3591-4139-8173-9de7db6f15df}" Name="ReportDueOnDate" /><FieldRef ID="{e11190ac-ddaf-4d60-a662-7aad38460632}" Name="IsClosed" /><FieldRef ID="{95f22dc0-2700-4593-a6e8-d8efc3d2f097}" Name="IncidentTitle" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="FlashReportID" ID="{29c5a494-1069-4734-a0a0-87e78a5bfb89}" DisplayName="FlashReportID" Type="Text" /><Field Name="KeyFindings" ID="{042c07b1-1dea-4854-b77c-1111afbac6d9}" DisplayName="KeyFindings" Type="Note" /><Field Name="PeopleInterviewed" ID="{a033e30f-f65a-47cf-a1ab-79741306332e}" DisplayName="PeopleInterviewed" Type="Note" /><Field Name="RootCauses" ID="{4dafb886-c183-4e2c-83b6-a2d2e5ee6b74}" DisplayName="RootCauses" Type="Note" /><Field Name="Conclusion" ID="{79adbacd-8692-486c-ab5b-3d5b549adb74}" DisplayName="Conclusion" Type="Note" /><Field Name="RootCauses1" ID="{dad22e88-c221-4dd2-85b8-fb94d2aed426}" DisplayName="RootCauses" Type="Text" /><Field Name="HSEApprover" ID="{afe2682e-e24b-4913-99c2-53010530fb09}" DisplayName="HSEApprover" Type="Text" /><Field Name="HSEComments" ID="{bf04ebbf-ec7b-41d8-ac14-9805cfab1a7f}" DisplayName="HSEComments" Type="Note" /><Field Name="IRRCQualityScore" ID="{3d9aec1b-07a2-4f54-803d-43a0898a6f00}" DisplayName="IRRCQualityScore" Type="Text" /><Field Name="QualityAssessedBy" ID="{66c1e21d-9844-4326-9d5c-188df5182760}" DisplayName="QualityAssessedBy" Type="Text" /><Field Name="Assignee" ID="{a6ce4175-86c6-45f4-90b9-604feb82015c}" DisplayName="Assignee" Type="Note" /><Field Name="AssigneeEmail" ID="{02092764-fffa-4c4e-a6eb-a939d3349a7d}" DisplayName="AssigneeEmail" Type="Note" /><Field Name="IncidentDescription" ID="{cf569c8c-492f-4e5d-96e3-adc44e101759}" DisplayName="IncidentDescription" Type="Note" /><Field Name="IsSubmitted" ID="{77aa1cef-a688-439c-9de1-98676b38fec6}" DisplayName="IsSubmitted" Type="Boolean" /><Field Name="IsApproved" ID="{d37fcc7f-9669-4484-a4d1-776aabf1b7c2}" DisplayName="IsApproved" Type="Boolean" /><Field Name="IsSavedAsDraft" ID="{521d98a1-2c61-4063-bf29-81a579919772}" DisplayName="IsSavedAsDraft" Type="Boolean" /><Field Name="ApprovalDate1" ID="{3a1620f7-8f68-47ad-b12d-180b9345f853}" DisplayName="ApprovalDate1" Type="DateTime" /><Field Name="IncidentActionTaken" ID="{63d9d60b-5db2-47e1-bb6b-21747fcb8c5c}" DisplayName="IncidentActionTaken" Type="Note" /><Field Name="ActualOrPotentialInquiry" ID="{ad3a9083-8bd5-4e5f-a8bf-f7c59463a783}" DisplayName="ActualOrPotentialInquiry" Type="Note" /><Field Name="ProcessSafetyIncidents" ID="{aa679120-3990-405f-914e-cc17ba298ae5}" DisplayName="ProcessSafetyIncidents" Type="Note" /><Field Name="MiscellaneousIncidents" ID="{60cc9a11-9465-4944-99f8-7cc4b91a444d}" DisplayName="MiscellaneousIncidents" Type="Note" /><Field Name="LateSubmissionReasons" ID="{9b766c6b-d104-429f-a738-e862f253bbda}" DisplayName="LateSubmissionReasons" Type="Note" /><Field Name="BasicActivityInProgress" ID="{21e82cf7-bce5-4db4-b7b3-d05d5e823dc4}" DisplayName="BasicActivityInProgress" Type="Note" /><Field Name="RiskBasedElements" ID="{f67bd3d5-83ae-4886-b5dd-8148026be6b1}" DisplayName="RiskBasedElements" Type="Note" /><Field Name="CulturalBasedElements" ID="{30f8d589-01c3-448c-87fe-96322ddc810a}" DisplayName="CulturalBasedElements" Type="Note" /><Field Name="ReportDueOnDate" ID="{7023171c-3591-4139-8173-9de7db6f15df}" DisplayName="ReportDueOnDate" Type="DateTime" /><Field Name="IsClosed" ID="{e11190ac-ddaf-4d60-a662-7aad38460632}" DisplayName="IsClosed" Type="Boolean" /><Field Name="IncidentTitle" ID="{95f22dc0-2700-4593-a6e8-d8efc3d2f097}" DisplayName="IncidentTitle" Type="Note" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="FlashReportID" /><FieldRef Name="KeyFindings" /><FieldRef Name="PeopleInterviewed" /><FieldRef Name="RootCauses" /><FieldRef Name="Conclusion" /><FieldRef Name="RootCauses1" /><FieldRef Name="HSEApprover" /><FieldRef Name="HSEComments" /><FieldRef Name="IRRCQualityScore" /><FieldRef Name="QualityAssessedBy" /><FieldRef Name="Assignee" /><FieldRef Name="AssigneeEmail" /><FieldRef Name="IncidentDescription" /><FieldRef Name="IsSubmitted" /><FieldRef Name="IsApproved" /><FieldRef Name="IsSavedAsDraft" /><FieldRef Name="ApprovalDate1" /><FieldRef Name="IncidentActionTaken" /><FieldRef Name="ActualOrPotentialInquiry" /><FieldRef Name="ProcessSafetyIncidents" /><FieldRef Name="MiscellaneousIncidents" /><FieldRef Name="LateSubmissionReasons" /><FieldRef Name="BasicActivityInProgress" /><FieldRef Name="RiskBasedElements" /><FieldRef Name="CulturalBasedElements" /><FieldRef Name="ReportDueOnDate" /><FieldRef Name="IsClosed" /><FieldRef Name="IncidentTitle" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

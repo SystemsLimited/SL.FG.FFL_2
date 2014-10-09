@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="FlashReport" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/FlashReport" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100bfb7081aca7241278917d4188b497d86" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{37d44f52-052f-4663-8ae7-483a90abcd52}" Name="IR_x002d_1ReceivingDate" /><FieldRef ID="{da871d4b-7ade-47fe-a59c-b8c7e7267652}" Name="FlashIssueDate" /><FieldRef ID="{dd0fcbf2-dbdf-452c-80d1-6f8009d627aa}" Name="Unit_x002f_Section" /><FieldRef ID="{b499b759-062a-491f-ab20-607cc5a5552e}" Name="DateOfIncident" /><FieldRef ID="{2191a61c-2e01-455b-b679-a5e9dadfba7f}" Name="TimeOfIncident" /><FieldRef ID="{5d692ba6-8c91-4310-a94a-5cc929a85c9f}" Name="DescriptionOfIncident" /><FieldRef ID="{483c01b0-4a4e-42c1-97a2-636a2f9eaccd}" Name="ActionRequired" /><FieldRef ID="{50586344-f3e4-48ac-9526-40f316d9c22a}" Name="IncidentScore" /><FieldRef ID="{29205977-9e3c-4a15-9ecd-b5736528e308}" Name="ActionTaken" /><FieldRef ID="{6342e2dc-2669-401f-a568-a846524d86c7}" Name="ResponcibleSection_x002f_Unit" /><FieldRef ID="{4218795f-c0b1-471d-93cc-fdd77fa04d26}" Name="ResponcibleDepartment" /><FieldRef ID="{7b6e7fd0-f4fc-450a-8239-1cf0e2b6ea6f}" Name="TeamMembers" /><FieldRef ID="{186b10af-90dc-4ad5-886a-92b5be4510e8}" Name="TargetDate" /><FieldRef ID="{6a69f4b0-e340-40e4-b171-17338c881415}" Name="ApprovingAuthority" /><FieldRef ID="{88b52e4b-040d-4174-948f-5832259bb26b}" Name="Description2" /><FieldRef ID="{369d34ab-0bc5-413b-83dc-4b8e38374db8}" Name="TeamLead" /><FieldRef ID="{71860293-1783-4ab1-b9c1-7e04c1630eaf}" Name="IsSaveAsDraft" /><FieldRef ID="{d4d7009f-115f-452a-b756-aa2228ed5872}" Name="IR1ID" /><FieldRef ID="{40e9c559-0579-404d-9dd6-f46f462e142d}" Name="Assignee" /><FieldRef ID="{3abcddec-e106-4f03-914d-8595e6689e37}" Name="SubmittedBy" /><FieldRef ID="{1001b18b-e325-4dae-9845-e6fb2c4a04f9}" Name="AuditedBy" /><FieldRef ID="{6fcb9bfb-8d87-43e2-b8fa-4ef0126b3389}" Name="Status" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="IR_x002d_1ReceivingDate" ID="{37d44f52-052f-4663-8ae7-483a90abcd52}" DisplayName="IR-1ReceivingDate" Type="DateTime" /><Field Name="FlashIssueDate" ID="{da871d4b-7ade-47fe-a59c-b8c7e7267652}" DisplayName="FlashIssueDate" Type="DateTime" /><Field Name="Unit_x002f_Section" ID="{dd0fcbf2-dbdf-452c-80d1-6f8009d627aa}" DisplayName="Unit/Section" Type="Text" /><Field Name="DateOfIncident" ID="{b499b759-062a-491f-ab20-607cc5a5552e}" DisplayName="DateOfIncident" Type="DateTime" /><Field Name="TimeOfIncident" ID="{2191a61c-2e01-455b-b679-a5e9dadfba7f}" DisplayName="TimeOfIncident" Type="Text" /><Field Name="DescriptionOfIncident" ID="{5d692ba6-8c91-4310-a94a-5cc929a85c9f}" DisplayName="DescriptionOfIncident" Type="Note" /><Field Name="ActionRequired" ID="{483c01b0-4a4e-42c1-97a2-636a2f9eaccd}" DisplayName="ActionRequired" Type="Text" /><Field Name="IncidentScore" ID="{50586344-f3e4-48ac-9526-40f316d9c22a}" DisplayName="IncidentScore" Type="Text" /><Field Name="ActionTaken" ID="{29205977-9e3c-4a15-9ecd-b5736528e308}" DisplayName="ActionTaken" Type="Text" /><Field Name="ResponcibleSection_x002f_Unit" ID="{6342e2dc-2669-401f-a568-a846524d86c7}" DisplayName="ResponcibleSection/Unit" Type="Text" /><Field Name="ResponcibleDepartment" ID="{4218795f-c0b1-471d-93cc-fdd77fa04d26}" DisplayName="ResponcibleDepartment" Type="Text" /><Field Name="TeamMembers" ID="{7b6e7fd0-f4fc-450a-8239-1cf0e2b6ea6f}" DisplayName="TeamMembers" Type="Note" /><Field Name="TargetDate" ID="{186b10af-90dc-4ad5-886a-92b5be4510e8}" DisplayName="TargetDate" Type="DateTime" /><Field Name="ApprovingAuthority" ID="{6a69f4b0-e340-40e4-b171-17338c881415}" DisplayName="ApprovingAuthority" Type="Text" /><Field Name="Description2" ID="{88b52e4b-040d-4174-948f-5832259bb26b}" DisplayName="Description" Type="Note" /><Field Name="TeamLead" ID="{369d34ab-0bc5-413b-83dc-4b8e38374db8}" DisplayName="TeamLead" Type="Text" /><Field Name="IsSaveAsDraft" ID="{71860293-1783-4ab1-b9c1-7e04c1630eaf}" DisplayName="IsSaveAsDraft" Type="Choice" /><Field Name="IR1ID" ID="{d4d7009f-115f-452a-b756-aa2228ed5872}" DisplayName="IRID" Type="Text" /><Field Name="Assignee" ID="{40e9c559-0579-404d-9dd6-f46f462e142d}" DisplayName="Assignee" Type="Note" /><Field Name="SubmittedBy" ID="{3abcddec-e106-4f03-914d-8595e6689e37}" DisplayName="SubmittedBy" Type="Text" /><Field Name="AuditedBy" ID="{1001b18b-e325-4dae-9845-e6fb2c4a04f9}" DisplayName="AuditedBy" Type="Text" /><Field Name="Status" ID="{6fcb9bfb-8d87-43e2-b8fa-4ef0126b3389}" DisplayName="Status" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="IR_x002d_1ReceivingDate" /><FieldRef Name="FlashIssueDate" /><FieldRef Name="Unit_x002f_Section" /><FieldRef Name="DateOfIncident" /><FieldRef Name="TimeOfIncident" /><FieldRef Name="DescriptionOfIncident" /><FieldRef Name="ActionRequired" /><FieldRef Name="IncidentScore" /><FieldRef Name="ActionTaken" /><FieldRef Name="ResponcibleSection_x002f_Unit" /><FieldRef Name="ResponcibleDepartment" /><FieldRef Name="TeamMembers" /><FieldRef Name="TargetDate" /><FieldRef Name="ApprovingAuthority" /><FieldRef Name="Description2" /><FieldRef Name="ID" /><FieldRef Name="TeamLead" /><FieldRef Name="IsSaveAsDraft" /><FieldRef Name="IR1ID" /><FieldRef Name="Assignee" /><FieldRef Name="SubmittedBy" /><FieldRef Name="AuditedBy" /><FieldRef Name="Status" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IR-1-Off" OnQuickLaunch="FALSE" TemplateType="300" Url="Lists/IR-1-Off" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="IncidentCategory">FAC,MTC,RWC</Field>
+          <Field Name="InjuryCategory">LTI,RWC,MTC</Field>
+          <Field Name="EmployeeType">FFL</Field>
+          <Field Name="ConsentTaken">Yes</Field>
+          <Field Name="DateOfConsentTaken">8/13/2014</Field>
+          <Field Name="MOName">lahore\Rizwan.mahfooz</Field>
+          <Field Name="DateOfIncident">8/14/2014</Field>
+          <Field Name="TimeOfIncident">6:35 AM</Field>
+          <Field Name="Unit_x002f_Area">Utilities West</Field>
+          <Field Name="IncidentScore">Incident Score 1</Field>
+          <Field Name="SubmittedBy">lahore\hafiz.muhammadusama</Field>
+          <Field Name="DateOFSubmission">8/15/2014</Field>
+          <Field Name="TitleOfIncident">Title Of Incident 1</Field>
+          <Field Name="IncidentDescription">Incident Description 1</Field>
+          <Field Name="ActionTaken">Action Taken 1</Field>
+          <Field Name="MORemarks">MO Remarks A</Field>
+          <Field Name="IsDetailedReportRequired?">Yes</Field>
+          <Field Name="IsInvestigationTeamRequired?">No</Field>
+          <Field Name="IsSaveAsDraft">True</Field>
+          <Field Name="Assignee">lahore\hafiz.muhammadusama</Field>
+          <Field Name="AuditedBy">lahore\hafiz.muhammadusama</Field>
+          <Field Name="Status">Inprogress</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

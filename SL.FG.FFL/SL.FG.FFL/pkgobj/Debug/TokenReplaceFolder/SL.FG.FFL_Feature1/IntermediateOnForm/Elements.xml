@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="IntermediateOnForm" List="113" Url="_catalogs/wp">
+    <File Path="IntermediateOnForm\IntermediateOnForm.webpart" Url="SL.FG.FFL_IntermediateOnForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="SL.FG.FFL" />
+    </File>
+  </Module>
+</Elements>

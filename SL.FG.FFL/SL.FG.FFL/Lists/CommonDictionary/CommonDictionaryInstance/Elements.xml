@@ -1,0 +1,1247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CommonDictionary" OnQuickLaunch="FALSE" TemplateType="10006" Url="Lists/CommonDictionary" Description="My List Instance">
+    <Data>
+      <Rows>
+        <!--To Be Sync-->
+        <!-- IR01DI-->
+        <Row>
+          <Field Name="Title">IR01DIFormLink</Field>
+          <Field Name="Value">SitePages/IR01DI.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Submitted_S</Field>
+          <Field Name="Value">IR01DI Submitted</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        
+        <Row>
+          <Field Name="Title">IR01DI_ON_From_FB_To_RP_S</Field>
+          <Field Name="Value">IR01DI Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        
+        
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Submitted_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Reject_S</Field>
+          <Field Name="Value">IR01DI Rejected</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Reject_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Approve_S</Field>
+          <Field Name="Value">IR01DI Approved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Approve_S</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Forward_S</Field>
+          <Field Name="Value">IR01DI Reviewed/Forwarded</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_Forward_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_LastSaved_S</Field>
+          <Field Name="Value">IR01DI Updated</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DIFormLink_TE_LastSaved_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Title">IR01DI_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_LastSave_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_Forward_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_Approve_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_Reject_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_4</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_5</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR01DI_SaveAsDraft_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DI_6</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        
+        
+        <!--end-->
+        <!--IR03DI-->
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink</Field>
+          <Field Name="Value">SitePages/IR03DI.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DI_ON_From_FB_To_RP_S</Field>
+          <Field Name="Value">IR03DI Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Submitted_S</Field>
+          <Field Name="Value">IR03DI Submitted</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Submitted_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Reject_S</Field>
+          <Field Name="Value">IR03DI Rejected</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Reject_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Approve_S</Field>
+          <Field Name="Value">IR03DI Approved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Approve_S</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Forward_S</Field>
+          <Field Name="Value">IR03DI Reviewed/Forwarded</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_Forward_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_LastSaved_S</Field>
+          <Field Name="Value">IR03DI Updated</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink_TE_LastSaved_B</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IR03DI_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_LastSave_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_Forward_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_Approve_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_Reject_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_4</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_5</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DI_SaveAsDraft_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DI_6</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--end-->
+        
+        
+        <Row>
+          <Field Name="Title">WorkQueue_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+
+        <!-- Farhan Faiz-->
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_OnSpot</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_OnSpot_Subject</Field>
+          <Field Name="Value">OnSpot Recommendation - Closed</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!---->
+
+        <!--Application Data-->
+        <!--FFL-->
+        <Row>
+          <Field Name="Title">SMTP</Field>
+          <Field Name="Value">192.168.100.9</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSE_Approvers</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MasterGroup</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">ADGroup</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Msg_ContactAdmin</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Authenticated_Users</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <!--Access Denied-->
+        <Row>
+          <Field Name="Title">Access_Denied</Field>
+          <Field Name="Value">SitePages/AccessDenied.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--Email Formats-->
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_RE_Subject</Field>
+          <Field Name="Value">Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_ResponsiblePerson_To_HOD_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_ResponsiblePerson_To_HOD_RE_Subject</Field>
+          <Field Name="Value">Approve/Reject Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Approve_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Approve_RE_Subject</Field>
+          <Field Name="Value">Recommendation Approved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Reject_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Reject_RE_Subject</Field>
+          <Field Name="Value">Recommendation Rejected</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">MSAFormSaved_Subject</Field>
+          <Field Name="Value">MSA Saved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAFormSaved</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <!--WebParts Data-->
+        <!--MSAForm-->
+        <Row>
+          <Field Name="Title">MSAForm_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAForm_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAForm_SaveAsDraft_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAFormLink</Field>
+          <Field Name="Value">SitePages/MSA.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--IRRecommendationForm-->
+        <Row>
+          <Field Name="Title">RecommendationForm_Cancel_Redirect__IR01DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DIR_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Reject_Redirect__IR01DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DIR_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Approve_Redirect__IR01DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DIR_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Save_Redirect__IR01DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR01DIR_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--list2-->
+        <Row>
+          <Field Name="Title">RecommendationForm_Cancel_Redirect__IR03DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DIR_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Reject_Redirect__IR03DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DIR_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Approve_Redirect__IR03DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DIR_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Save_Redirect__IR03DI</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR03DIR_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--list3-->
+        <Row>
+          <Field Name="Title">RecommendationForm_Cancel_Redirect__IR-5-Off</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR-5-OffR_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Reject_Redirect__IR-5-Off</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR-5-OffR_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Approve_Redirect__IR-5-Off</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR-5-OffR_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RecommendationForm_Save_Redirect__IR-5-Off</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=IR-5-OffR_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">IRRecommendationFormLink</Field>
+          <Field Name="Value">SitePages/IRRecommendation.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--End-->
+
+        <!--MSARecommendationForm-->
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Send_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Approve_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Reject_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_4</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationFormLink</Field>
+          <Field Name="Value">SitePages/MSARecommendation.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--Observation Category-->
+        <!--PPEs-->
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Eyes and face</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Ears</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Head</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Hands/arms</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Feet/leg</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Full Body Protection</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Fall Protection</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Eyes and face</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+
+        <!--Positions of people-->
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Electric Current</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Struck by</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Caught B/w</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Falling</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Temp. extremes</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Striking against</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Inhaling</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Absorbing</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Swallowing</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!-- Reactions of people -->
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Adjusting PPEs</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Hiding</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Dodging</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Changing tools</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Changing positions</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Rearranging job</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Attaching grounds</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Stops activity</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Absorbing</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- Tools/Equipment -->
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Not right for the job</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Seat belts not used</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Cocks / Restraints improperly used</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Used incorrectly</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Barricade / warning  lights</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Unsafe condition</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Certification expired</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+
+        <!-- Procedures -->
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">PTW non- compliance</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Inadequate</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Not Established</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Not maintained</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Fire prevention inadequate</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Gas Test if Required Satisfactory</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Knowledge  / No knowledge</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Fire Protection</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+
+        <!-- Housekeeping -->
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstructions in passage ways</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Unorganized tools / materials untidy work place</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstructions by stairs / platforms</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Gaps in the passage ways / channels</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Potential ignition source / Fire</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Spills</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstruction to safety equipment</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Waste not managed</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Health Hazard</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- OHIH -->
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Hygiene</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Noise</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Lighting</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Heat Stress</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Ventilation</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Ergonomics</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Waste Management</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Radiation</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Occupational illness</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- Environment -->
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Dust</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Toxic Gas Emission</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Particulate Matter</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">COD</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">BOD</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">TDS</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">SS</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Free Ammonia</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">pH</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+
+
+        <!--Hafiz Usama-->
+
+        <!--WaiverOFFJobStart-->
+        <Row>
+          <Field Name="Title">WaiverFormLink</Field>
+          <Field Name="Value">SitePages/WaiverForm.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">WaiverNotAvailable</Field>
+          <Field Name="Value">Waiver Not Available</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Waiver_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToUMSubject</Field>
+          <Field Name="Value">Waiver Submitted by Initiator</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToUMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AcceptanceFromUMSubject</Field>
+          <Field Name="Value">Accepte And Reviewd By UM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AcceptanceFromUMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">RejectionFromUMSubject</Field>
+          <Field Name="Value">Not Accepted By UM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RejectionFromUMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToDMSubject</Field>
+          <Field Name="Value">Waiver Submitted by Initiator Reviewd By UM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToDMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AcceptanceFromDMSubject</Field>
+          <Field Name="Value">Accepte And Reviewd By DM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AcceptanceFromDMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">RejectionFromDMSubject</Field>
+          <Field Name="Value">Not Accepted By DM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RejectionFromDMTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToDOSubject</Field>
+          <Field Name="Value">Waiver Submitted by Initiator Reviewd By DM</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ToDOTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">AcceptanceFromDOSubject</Field>
+          <Field Name="Value">Accepte And Reviewd By DO, Target date has Updated</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AcceptanceFromDOTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">RejectionFromDOSubject</Field>
+          <Field Name="Value">Not Accepted by DO</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RejectionFromDOTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">AssigneWaiverDOSubject</Field>
+          <Field Name="Value">Waiver Accepted and assigned</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AssigneWaiverDOTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--IR-1Start-->
+        <Row>
+          <Field Name="Title">IR-1Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR1FormLink</Field>
+          <Field Name="Value">SitePages/IR01On.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--Flash Report-->
+        <Row>
+          <Field Name="Title">IR01DIFormLink</Field>
+          <Field Name="Value">SitePages/IR01DI.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamIR01DIEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamIR01DIEmailSubject</Field>
+          <Field Name="Value">Submit IR01DI Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR03DIFormLink</Field>
+          <Field Name="Value">SitePages/IR03DI.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamIR03DIEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamIR03DIEmailSubject</Field>
+          <Field Name="Value">Submit IR03DI Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FlashReportFormLink</Field>
+          <Field Name="Value">/SitePages/FlashReportOn.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FlashReportLink</Field>
+          <Field Name="Value">SitePages/FlashReportOn.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--IR-1OFFJobStart-->
+
+        <Row>
+          <Field Name="Title">IR-1OffCancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IR_1OffFormLink</Field>
+          <Field Name="Value">SitePages/IR01Off.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SupervisorEmailSubject</Field>
+          <Field Name="Value">Kindly view the IR-1 form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEEmailSubject</Field>
+          <Field Name="Value">Kindly Generate Flash Report</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--Flash Report Off Job-->
+        <Row>
+          <Field Name="Title">FlashReportOffLink</Field>
+          <Field Name="Value">SitePages/FlashReportOff.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEGroupEmailSubject</Field>
+          <Field Name="Value">Flash Report Has Generated</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+       
+        <Row>
+          <Field Name="Title">HSEGroupEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SupervisorEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Title">FlashReportOffLink</Field>
+          <Field Name="Value">SitePages/FlashReportOff.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MOEmailSubject</Field>
+          <Field Name="Value">IR-1 Remarks Required</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MOEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MOEmailBody</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MOGroup</Field>
+          <Field Name="Value">MO Group</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AdminGroup</Field>
+          <Field Name="Value">Admin</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AllFGMembersGroup</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SupervisorGroup</Field>
+          <Field Name="Value">Supervisor</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--IR-1OffJobEnd-->
+        <!--FlashReportOffStart-->
+        <Row>
+          <Field Name="Title">IR_5FormLink</Field>
+          <Field Name="Value">SitePages/IR05DI.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamEmailSubject</Field>
+          <Field Name="Value">Submit IR-5 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--FlashReportOffEnd-->
+        <!--IR-5OFFJobStart-->
+        <Row>
+          <Field Name="Title">IR-5_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamMemberEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamMemberEmailSubject</Field>
+          <Field Name="Value">IR-05 Form Has Submitted</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamMemberEmailBody</Field>
+          <Field Name="Value">IR-05 Form Has Submitted for review To Team Lead</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamLeadEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamLeadEmailSubject</Field>
+          <Field Name="Value">Kindly Review IR-05 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ApprovingAuthorityDisapprovelEmailSubject</Field>
+          <Field Name="Value">Resubmit IR-05 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ApprovingAuthorityDisapprovelEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamLeadApprovelEmailTemplate</Field>
+          <Field Name="Value">Dear Team IR-05 Form has submitted to Approving Authority For FRID : </Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamLeadApprovelEmailSubject</Field>
+          <Field Name="Value">IR-05 Form Submission To HSE</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEIR05EmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEIR05EmailSubject</Field>
+          <Field Name="Value">Kindly Review IR-05 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEApprovelEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEApprovelEmailSubject</Field>
+          <Field Name="Value">IR-05 Form Submission Approved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEDisapprovelEmailSubject</Field>
+          <Field Name="Value">Resubmit IR-05 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEDisapprovelEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEIR05GroupEmailSubject</Field>
+          <Field Name="Value">IR-05 Form Submission Approved And Recomendation Sent</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEIR05GroupEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">TeamLeadToApprovingAuthorityEmailSubject</Field>
+          <Field Name="Value">Kindly Review IR-05 Form</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TeamLeadToApprovingAuthorityEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">HSEToApprovingAuthorityEmailSubject</Field>
+          <Field Name="Value">Reviewed and sent recomendation of IR-05</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEToApprovingAuthorityEmailTemplate</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEToAllTeamMembersEmailSubject</Field>
+          <Field Name="Value">Reviewed and sent recomendation of IR-05</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSEToAllTeamMembersEmailTemplate</Field>
+          <Field Name="Value">Reviewed and sent recomendation of IR-05</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--IR-5OffJobEnd-->
+
+
+        <!--End-->
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

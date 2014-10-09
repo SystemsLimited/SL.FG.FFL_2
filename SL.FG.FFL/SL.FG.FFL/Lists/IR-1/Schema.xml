@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="IR-1" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/IR-1" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+
+
+      
+      
+      
+    <ContentType ID="0x01008c84c7ec7dd445078229978b54adba1b" Name="ListFieldsContentType">
+        <FieldRefs>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{2048a452-dff9-4e3c-9fed-d76f127e486a}" Name="IncidentCategory" /><FieldRef ID="{d5d09537-b9e6-4ef2-9693-36128e54531d}" Name="InjuryCategory" /><FieldRef ID="{de5ba4fd-c845-4960-938c-a1c8d3556ef6}" Name="EmployeeType" /><FieldRef ID="{b3fc7b19-59b5-4b21-807f-b5ab7da46eee}" Name="ConsentTaken" /><FieldRef ID="{785f6951-8e66-4b14-838f-97d47695a87c}" Name="DateOfConsentTaken" /><FieldRef ID="{f5330ee8-76cd-4727-8eb4-668dd82b192b}" Name="MOName" /><FieldRef ID="{5ad667ed-be74-47e7-ab9c-ecf1139e3269}" Name="DateOfIncident" /><FieldRef ID="{6f14ccb5-7110-47cb-b973-dd48e656e400}" Name="TimeOfIncident" /><FieldRef ID="{f78903c0-6265-4ba7-98bf-8cdb50d97b9b}" Name="Unit_x002f_Area" /><FieldRef ID="{06bf3776-aa41-4f32-95e9-ad990c8e1157}" Name="IncidentScore" /><FieldRef ID="{e7a6d4b6-aade-4ce2-af51-d3142017be50}" Name="SubmittedBy" /><FieldRef ID="{a3807eba-b5f7-4235-864a-894ea7561975}" Name="DateOFSubmission" /><FieldRef ID="{2c372b9f-1e5d-43b1-b82a-459f4d255e51}" Name="TitleOfIncident" /><FieldRef ID="{ceb558f0-57ca-4a55-961e-311e3d03cf39}" Name="IncidentDescription" /><FieldRef ID="{1e7d7a94-c2e1-453f-86fa-1af26cbb2a09}" Name="ActionTaken" /><FieldRef ID="{8690b090-f4ae-4b5c-a3c8-a61873333f15}" Name="IsDetailedReportRequired" /><FieldRef ID="{506a0637-c5ba-4041-8bbd-d7a0080cf368}" Name="IsInvestigationTeamRequired" /><FieldRef ID="{76b2d247-10ce-4b4c-97b0-275262815c8f}" Name="IsSaveAsDraft" /><FieldRef ID="{2d2d7dc1-b47d-4b01-9d5c-718ae9431745}" Name="MORemarks" /><FieldRef ID="{24bd0a26-d9fc-41bf-92e1-a7e4d5f8ad4e}" Name="Assignee" /><FieldRef ID="{eea06e1d-26e1-4043-8b7d-d5562f85c117}" Name="AuditedBy" /><FieldRef ID="{a9379a8e-ca66-4262-8367-03094cbfaade}" Name="_x0025_Complete" /><FieldRef ID="{5d978ebc-b9a1-45d4-a361-579e593fd875}" Name="Status" /><FieldRef ID="{f245988b-d5e9-4a2f-a035-af871e78ad02}" Name="IR2ID" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field Name="IncidentCategory" ID="{2048a452-dff9-4e3c-9fed-d76f127e486a}" DisplayName="IncidentCategory" Type="Text" /><Field Name="InjuryCategory" ID="{d5d09537-b9e6-4ef2-9693-36128e54531d}" DisplayName="InjuryCategory" Type="Text" /><Field Name="EmployeeType" ID="{de5ba4fd-c845-4960-938c-a1c8d3556ef6}" DisplayName="EmployeeType" Type="Text" /><Field Name="ConsentTaken" ID="{b3fc7b19-59b5-4b21-807f-b5ab7da46eee}" DisplayName="ConsentTaken" Type="Text" /><Field Name="DateOfConsentTaken" ID="{785f6951-8e66-4b14-838f-97d47695a87c}" DisplayName="DateOfConsentTaken" Type="DateTime" /><Field Name="MOName" ID="{f5330ee8-76cd-4727-8eb4-668dd82b192b}" DisplayName="MOName" Type="Text" /><Field Name="DateOfIncident" ID="{5ad667ed-be74-47e7-ab9c-ecf1139e3269}" DisplayName="DateOfIncident" Type="DateTime" /><Field Name="TimeOfIncident" ID="{6f14ccb5-7110-47cb-b973-dd48e656e400}" DisplayName="TimeOfIncident" Type="Text" /><Field Name="Unit_x002f_Area" ID="{f78903c0-6265-4ba7-98bf-8cdb50d97b9b}" DisplayName="Unit/Area" Type="Text" /><Field Name="IncidentScore" ID="{06bf3776-aa41-4f32-95e9-ad990c8e1157}" DisplayName="IncidentScore" Type="Text" /><Field Name="SubmittedBy" ID="{e7a6d4b6-aade-4ce2-af51-d3142017be50}" DisplayName="SubmittedBy" Type="Text" /><Field Name="DateOFSubmission" ID="{a3807eba-b5f7-4235-864a-894ea7561975}" DisplayName="DateOFSubmission" Type="DateTime" /><Field Name="TitleOfIncident" ID="{2c372b9f-1e5d-43b1-b82a-459f4d255e51}" DisplayName="TitleOfIncident" Type="Note" /><Field Name="IncidentDescription" ID="{ceb558f0-57ca-4a55-961e-311e3d03cf39}" DisplayName="Description" Type="Note" /><Field Name="ActionTaken" ID="{1e7d7a94-c2e1-453f-86fa-1af26cbb2a09}" DisplayName="ActionTaken" Type="Note" /><Field Name="IsDetailedReportRequired" ID="{8690b090-f4ae-4b5c-a3c8-a61873333f15}" DisplayName="IsDetailedReportRequired?" Type="Text" /><Field Name="IsInvestigationTeamRequired" ID="{506a0637-c5ba-4041-8bbd-d7a0080cf368}" DisplayName="IsInvestigationTeamRequired?" Type="Text" /><Field Name="IsSaveAsDraft" ID="{76b2d247-10ce-4b4c-97b0-275262815c8f}" DisplayName="IsSaveAsDraft" Type="Text" /><Field Name="MORemarks" ID="{2d2d7dc1-b47d-4b01-9d5c-718ae9431745}" DisplayName="MORemarks" Type="Text" /><Field Name="Assignee" ID="{24bd0a26-d9fc-41bf-92e1-a7e4d5f8ad4e}" DisplayName="Assignee" Type="Note" /><Field Name="AuditedBy" ID="{eea06e1d-26e1-4043-8b7d-d5562f85c117}" DisplayName="AuditedBy" Type="Text" /><Field Name="_x0025_Complete" ID="{a9379a8e-ca66-4262-8367-03094cbfaade}" DisplayName="% Complete" Type="Number" /><Field Name="Status" ID="{5d978ebc-b9a1-45d4-a361-579e593fd875}" DisplayName="Status" Type="Text" /><Field Name="IR2ID" ID="{f245988b-d5e9-4a2f-a035-af871e78ad02}" DisplayName="IR2ID" Type="Text" /></Fields>
+    <Views>
+
+
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="IncidentCategory" /><FieldRef Name="InjuryCategory" /><FieldRef Name="EmployeeType" /><FieldRef Name="ConsentTaken" /><FieldRef Name="DateOfConsentTaken" /><FieldRef Name="MOName" /><FieldRef Name="DateOfIncident" /><FieldRef Name="TimeOfIncident" /><FieldRef Name="Unit_x002f_Area" /><FieldRef Name="IncidentScore" /><FieldRef Name="SubmittedBy" /><FieldRef Name="DateOFSubmission" /><FieldRef Name="TitleOfIncident" /><FieldRef Name="IncidentDescription" /><FieldRef Name="ActionTaken" /><FieldRef Name="IsDetailedReportRequired" /><FieldRef Name="IsInvestigationTeamRequired" /><FieldRef Name="IsSaveAsDraft" /><FieldRef Name="ID" /><FieldRef Name="MORemarks" /><FieldRef Name="Assignee" /><FieldRef Name="AuditedBy" /><FieldRef Name="_x0025_Complete" /><FieldRef Name="Status" /><FieldRef Name="IR2ID" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

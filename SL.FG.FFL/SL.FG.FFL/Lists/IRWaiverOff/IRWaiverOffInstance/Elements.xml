@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IRWaiverOff" OnQuickLaunch="FALSE" TemplateType="303" Url="Lists/IRWaiverOff" Description="My List Instance"></ListInstance>
+</Elements>

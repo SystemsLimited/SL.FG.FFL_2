@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IIRRecommendation_OffJob" OnQuickLaunch="FALSE" TemplateType="304" Url="Lists/IIRRecommendation_OffJob" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="IRID">1</Field>
+          <Field Name="RecommendationNo">1</Field>
+          <Field Name="ResponsiblePerson">lahore\zeeshan.mahmood</Field>
+          <Field Name="ResponsibleDepartment">Test 1</Field>
+          <Field Name="ResponsibleSection">Urea</Field>
+          <Field Name="TargetDate">9/15/2014</Field>
+          <Field Name="Status">Inprogress</Field>
+          <Field Name="IIRDescription">test IIR Description</Field>
+          <Field Name="LastStatement">test Last Statement</Field>
+          <Field Name="ClosureJustification">test Closure Justification</Field>
+          <Field Name="ClosureDate">8/14/2014</Field>
+          <Field Name="ApprovedBy">lahore\hafiz.muhammadusama</Field>
+          <Field Name="ConcurrenceOfRP">Yes</Field>
+          <Field Name="Assignee">lahore\hafiz.muhammadusama</Field>
+          <Field Name="AssigneeEmail">hafiz.muhammadusama@systemsltd.com</Field>
+          <Field Name="IsSavedAsDraft">no</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

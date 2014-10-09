@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IR-5-Off" OnQuickLaunch="FALSE" TemplateType="302" Url="Lists/IR-5-Off" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="IncidentCategory">FAC,MTC,RWC</Field>
+          <Field Name="InjuryCategory">LTI,RWC,MTC</Field>
+          <Field Name="DateOfIncident">8/14/2014</Field>
+          <Field Name="TimeOfIncident">6:35 AM</Field>
+          <Field Name="TitleOfIncident">Title Of Incident 1</Field>
+          <Field Name="Unit_x002f_Area">Utilities West</Field>
+          <Field Name="EmployeeType">FFL</Field>
+          <Field Name="IsSaveAsDraft">Yes</Field>
+          <Field Name="SubmittedBy">Lahore\farhan.liaqat</Field>
+          <Field Name="Assignee">Lahore\Hafiz.Muhammadusama</Field>
+          <Field Name="AuditedBy">Lahore\Hafiz.Muhammadusama</Field>
+          <Field Name="IRID">1</Field>
+          <Field Name="FRID">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

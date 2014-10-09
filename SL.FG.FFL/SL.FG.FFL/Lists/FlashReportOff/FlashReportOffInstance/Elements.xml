@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="FlashReportOff" OnQuickLaunch="FALSE" TemplateType="301" Url="Lists/FlashReportOff" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="IR_x002d_1ReceivingDate">8/15/2014</Field>
+          <Field Name="FlashIssueDate">8/12/2014</Field>
+          <Field Name="Unit_x002f_Section">Utilities West</Field>
+          <Field Name="DateOfIncident">8/14/2014</Field>
+          <Field Name="TimeOfIncident">6:35 AM</Field>
+          <Field Name="DescriptionOfIncident">Incident Description 1</Field>
+          <Field Name="ActionTaken">Action Taken 1</Field>
+          <Field Name="IncidentScore">Incident Score 1</Field>
+          <Field Name="IsSaveAsDraft">False</Field>
+          <Field Name="SubmittedBy">lahore\hafiz.muhammadusama</Field>
+          <Field Name="Assignee">lahore\hafiz.muhammadusama</Field>
+          <Field Name="AuditedBy">lahore\hafiz.muhammadusama</Field>
+          <Field Name="IRID">1</Field>
+          <Field Name="ActionRequired">Action Required A</Field>
+          <Field Name="ResponcibleSection_x002f_Unit">Utilities West</Field>
+          <Field Name="ResponcibleDepartment">Test 1</Field>
+          <Field Name="TeamMembers">lahore\farhan.liaqat,lahore\rizwan.mahfooz</Field>
+          <Field Name="TargetDate">8/20/2014</Field>
+          <Field Name="ApprovingAuthority">lahore\farhan.liaqat</Field>
+          <Field Name="Description">Flash Report Description 1</Field>
+          <Field Name="TeamLead">lahore\hafiz.muhammadusama</Field>
+          <Field Name="Status">Inprogress</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

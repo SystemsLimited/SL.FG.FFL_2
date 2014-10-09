@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e7a5523d-f2bc-43f2-9103-fd85b9dcc770" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SL.FG.FFL.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.MSAForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.MSARecommendationForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.WorkQueue" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IR01DIForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IR03DIForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IRRecommendationForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.WaiverForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.FlashReportOnForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IR01OnForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IR01OffForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IR05DIForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.FlashReportOffForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IntermediateOnForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.IntermediateOffForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.AddEventsToMSASchedule" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\SL.FG.FFL.WebParts\AddEventsToMSASchedule\AddEventsToMSAScheduleUserControl.ascx" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.eot" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.eot" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.ttf" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.woff" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\Style.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\news\news.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\news\vertical.news.slider.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\news\vertical.news.slider.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\jquery.mousewheel.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\flexslider.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\fonts\flexslider-icon.svg" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\slider\jquery.flexslider.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Images\img1.jpg" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR01DI\IRR01DIForm.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR01DI\IRR01DIForm_JSOM.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR03DI\IRR03DIForm.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR03DI\IRR03DIForm_JSOM.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR05DI\IR5OffForm.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\IRR05DI\IR5OffForm_JSOM.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\FlashReportOff.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\FlashReportOn.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\IR01Off.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\IR01On.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\IR05.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\Validation\Waiver.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\WorkQueue\WorkQueue.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\sp-responsive.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.svg" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\FGStyle.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3-custom.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.min.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\jquery-1.9.1.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\jQuery.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MicrosoftAjax.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm_JSOM.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\pwcal2013.txt" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SL.FG.FFL_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
