@@ -14,36 +14,121 @@
     <div class="row">
         <div id="message_div" runat="server" class="messageDiv">
         </div>
-
-        <!--Rizwan -->
-        <!--Start -->
         <div class="col-lg-12">
             <div class="panel panel-success">
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-lg-9">
-                            <h5>MSA Schedule</h5>
+                            <h5>MSA</h5>
                         </div>
                         <div class="col-lg-3">
                             <span class="panel-title pull-right"
                                 data-toggle="collapse"
-                                data-target="#collapse3">
+                                data-target="#collapse_01">
                                 <i class='glyphicon glyphicon-sort'></i>
                             </span>
                         </div>
                     </div>
                 </div>
-                <div id="collapse3" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput3" placeholder="Search..." class="form-control" />
+                <div id="collapse_01" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>MSA Schedule</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse3">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput3" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdMSAScheduled" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdMSAScheduled" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>MSA (Saved as draft)</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse1">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput1" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdMSATask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>MSA Recommendations</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse2">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput2" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdMSARecommendationTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,28 +140,215 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-lg-9">
-                            <h5>MSA (Saved as draft)</h5>
+                            <h5>IR-On-Job</h5>
                         </div>
                         <div class="col-lg-3">
                             <span class="panel-title pull-right"
                                 data-toggle="collapse"
-                                data-target="#collapse1">
+                                data-target="#collapse_02">
                                 <i class='glyphicon glyphicon-sort'></i>
                             </span>
                         </div>
                     </div>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput1" placeholder="Search..." class="form-control" />
+                <div id="collapse_02" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR01</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_21">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_21" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_21" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIR01Task" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdMSATask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>Flash Report</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_22">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_22" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_22" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdFlashReportTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR01 Detailed Investigation</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_23">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_23" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_23" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIR01DITasks" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR03 Detailed Investigation</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_24">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_24" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_24" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIR03DITasks" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR Recommendations</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_25">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_25" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_25" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIRRecommendationsOnJob" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>Waiver Tasks</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_26">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_26" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_26" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdWaiverOnJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -88,406 +360,191 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-lg-9">
-                            <h5>MSA Recommendation</h5>
+                            <h5>IR-Off-Job</h5>
                         </div>
                         <div class="col-lg-3">
                             <span class="panel-title pull-right"
                                 data-toggle="collapse"
-                                data-target="#collapse2">
+                                data-target="#collapse_03">
                                 <i class='glyphicon glyphicon-sort'></i>
                             </span>
                         </div>
                     </div>
                 </div>
-                <div id="collapse2" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput2" placeholder="Search..." class="form-control" />
+                <div id="collapse_03" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR01</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_31">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_31" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_31" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIIROffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdMSARecommendationTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>Flash Report</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_32">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_32" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_32" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdFROffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR05 Detailed Investigation</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_33">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_33" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_33" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIR05OffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>IR Recommendations</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_34">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_34" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_34" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdIR5OffJobRecomendationTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h5>Waiver Tasks</h5>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span class="panel-title pull-right"
+                                                data-toggle="collapse"
+                                                data-target="#collapse_35">
+                                                <i class='glyphicon glyphicon-sort'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse_35" class="panel-collapse collapse">
+                                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
+                                        <div class="row">
+                                            <div style="margin: 10px;">
+                                                <input type="text" id="searchInput_35" placeholder="Search..." class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <asp:GridView ID="grdWaiverOffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
+                                                </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IR01 Detailed Investigation</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse12">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse12" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput12" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIR01DITasks" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IR03 Detailed Investigation</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse13">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse13" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput13" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIR03DITasks" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IR Recommendations On Job</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse11">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse11" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput11" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIRRecommendationsOnJob" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End WorkQueue -->
-
-
-        <!--Usama -->
-        <!--Start -->
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IIR 01 Off The Job Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse30">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse30" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput30" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIIROffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>Flash Report Off The Job Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse32">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse32" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput32" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdFROffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IR05 Off Job Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse34">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse34" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput34" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIR05OffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IR05 Off Job Recommendation Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse36">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse36" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput36" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIR5OffJobRecomendationTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>On The Job Waiver Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse38">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse38" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput38" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdWaiverOnJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>Off The Job Waiver Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse39">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse39" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput39" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdWaiverOffJobTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>IIR-01 On The Job Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse40">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse40" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput40" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdIR01Task" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <h5>Flash Report On The Job Task</h5>
-                        </div>
-                        <div class="col-lg-3">
-                            <span class="panel-title pull-right"
-                                data-toggle="collapse"
-                                data-target="#collapse42">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="collapse42" class="panel-collapse collapse">
-                    <div class="panel-body" style="height: 200px; overflow-y: scroll;">
-                        <div class="row">
-                            <div style="margin: 10px;">
-                                <input type="text" id="searchInput42" placeholder="Search..." class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <asp:GridView ID="grdFlashReportTask" runat="server" AutoGenerateColumns="false" CssClass="GridViewStyle" GridLines="Both" HeaderStyle-BackColor="AliceBlue" Width="100%" CellPadding="10" CellSpacing="10">
-                                </asp:GridView>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-         <!--End WorkQueue -->
-
     </div>
 </div>
+
 
 <script src="/_layouts/15/SL.FG.FFL/Scripts/jQuery.js"></script>
 

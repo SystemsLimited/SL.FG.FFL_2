@@ -97,7 +97,7 @@ $(document).ready(function () {
 
     //*************************************//
 
-    //Rizwan Work Queue
+    //MSA
     //Start
     $("#searchInput1").keyup(function () {
         //split the current value of searchInput
@@ -216,443 +216,12 @@ $(document).ready(function () {
         "color": "#C0C0C0"
     });
 
-    $("#searchInput11").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR01DITask]").find("tr");
+    //End
 
-        var header = $(jo).first("tr");
 
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput12").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR01DITask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput13").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR03DITask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-    //End Work Queue
-
-    //Usama Work Queue
+    //IR-On-Job
     //Start
-    $("#searchInput30").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIIROffJobTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput32").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdFROffJobTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-
-    $("#searchInput34").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR05OffJobTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-
-    $("#searchInput35").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR05OffJobDraft]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-
-    $("#searchInput36").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR5OffJobRecomendationTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput37").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdIR5OffJobRecomendationDraft]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-
-    $("#searchInput38").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdWaiverOnJobTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput39").keyup(function () {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("[id$=grdWaiverOffJobTask]").find("tr");
-
-        var header = $(jo).first("tr");
-
-        if (this.value == "") {
-            jo.show();
-            return;
-        }
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        var filterResult = jo.filter(function (i, v) {
-            var $t = $(this);
-            for (var d = 0; d < data.length; ++d) {
-                var str = $t.html().toLowerCase();
-                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
-                    return true;
-                }
-            }
-            return false;
-        });
-
-        //show the rows that match.
-        header.add(filterResult).show();
-    }).focus(function () {
-        this.value = "";
-        $(this).css({
-            "color": "black"
-        });
-        $(this).unbind('focus');
-    }).css({
-        "color": "#C0C0C0"
-    });
-
-    $("#searchInput40").keyup(function () {
+    $("#searchInput_21").keyup(function () {
         //split the current value of searchInput
         var data = this.value.split(" ");
         //create a jquery object of the rows
@@ -691,7 +260,7 @@ $(document).ready(function () {
         "color": "#C0C0C0"
     });
 
-    $("#searchInput42").keyup(function () {
+    $("#searchInput_22").keyup(function () {
         //split the current value of searchInput
         var data = this.value.split(" ");
         //create a jquery object of the rows
@@ -730,11 +299,11 @@ $(document).ready(function () {
         "color": "#C0C0C0"
     });
 
-    $("#searchInput44").keyup(function () {
+    $("#searchInput_23").keyup(function () {
         //split the current value of searchInput
         var data = this.value.split(" ");
         //create a jquery object of the rows
-        var jo = $("[id$=grdIR05OffJobDraft]").find("tr");
+        var jo = $("[id$=grdIR01DITasks]").find("tr");
 
         var header = $(jo).first("tr");
 
@@ -768,6 +337,326 @@ $(document).ready(function () {
     }).css({
         "color": "#C0C0C0"
     });
+
+    $("#searchInput_24").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdIR03DITasks]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+    $("#searchInput_25").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdIRRecommendationsOnJob]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+
+    $("#searchInput_26").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdWaiverOnJobTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+    //End
+
+    //IR-Off-Job
+    //Start
+    $("#searchInput_31").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdIIROffJobTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+
+    $("#searchInput_32").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdFROffJobTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+    $("#searchInput_33").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdIR05OffJobTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+    $("#searchInput_34").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdIR5OffJobRecomendationTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+
+    $("#searchInput_35").keyup(function () {
+        //split the current value of searchInput
+        var data = this.value.split(" ");
+        //create a jquery object of the rows
+        var jo = $("[id$=grdWaiverOffJobTask]").find("tr");
+
+        var header = $(jo).first("tr");
+
+        if (this.value == "") {
+            jo.show();
+            return;
+        }
+        //hide all the rows
+        jo.hide();
+
+        //Recusively filter the jquery object to get results.
+        var filterResult = jo.filter(function (i, v) {
+            var $t = $(this);
+            for (var d = 0; d < data.length; ++d) {
+                var str = $t.html().toLowerCase();
+                if (str.toLowerCase().indexOf(data[d].toLowerCase()) >= 0) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        //show the rows that match.
+        header.add(filterResult).show();
+    }).focus(function () {
+        this.value = "";
+        $(this).css({
+            "color": "black"
+        });
+        $(this).unbind('focus');
+    }).css({
+        "color": "#C0C0C0"
+    });
+
+
 
     //End Work Queue
 

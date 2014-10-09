@@ -183,11 +183,41 @@
                 catch (ex) {
                 }
             }
-        }
 
-        if (isSavedAsDraft == false) {
-            if (errorFlag == true) {
-                message += "**** Please Provide value for the required fields ****";
+            errorMsg = 'Please enter atleast one';
+
+            var countKeyFindings = $('[id$=noOfKeyFindings_span]').text();
+            var countPeopleIntervieweds = $('[id$=noOfPeopleInterviewed_span]').text();
+            var countRootCauses = $('[id$=noOfRootCauses_span]').text();
+
+            if (countKeyFindings == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=keyFindings_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
+            }
+
+            if (countPeopleIntervieweds == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=peopleInterviewed_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
+            }
+
+            if (countRootCauses == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=rootCauses_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
             }
         }
 
@@ -306,7 +336,8 @@
             return true;
         }
         else {
-            ValidationSummary(message, controlList);
+            //ValidationSummary(message, controlList);
+            alert("Validation incomplete: Please verify the data.");
             return false;
         }
     }
@@ -571,9 +602,10 @@
                                 <div class="panel panel-success">
                                     <div class="panel-body">
                                         <div class="form-group">
+                                            <label>Sequence of Events</label>
                                             <div class="form-group">
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="rootCauses_tf" runat="server" placeholder="Please Enter Sequence of Events..." />
+                                                    <input type='text' class="form-control" id="rootCauses_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="rootCauses_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -599,8 +631,9 @@
                                     <div class="panel-body">
                                         <div class="form-group">
                                             <div class="form-group">
+                                                 <label>Key Findings</label>
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="keyFindings_tf" runat="server" placeholder="Please Enter Key Findings..." />
+                                                    <input type='text' class="form-control" id="keyFindings_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="keyFindings_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -626,8 +659,9 @@
                                     <div class="panel-body">
                                         <div class="form-group">
                                             <div class="form-group">
+                                                <label>Investigations/Interviews</label>
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="peopleInterviewed_tf" runat="server" placeholder="Please Enter Investigations/Interviews..." />
+                                                    <input type='text' class="form-control" id="peopleInterviewed_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="peopleInterviewed_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -692,6 +726,7 @@
                                             <div class="form-group">
                                                 <label>Responsible Unit/Section</label>
                                                 <select name="responsibleSection_ddl" class="form-control" id="responsibleSection_ddl" runat="server">
+                                                    <option value='0'>Please Select</option>
                                                 </select>
                                             </div>
                                         </div>

@@ -1188,6 +1188,17 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control14() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Value = "0";
+            @__ctrl.Text = "Please Select";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         private global::System.Web.UI.HtmlControls.HtmlSelect @__BuildControlresponsibleSection_ddl() {
             global::System.Web.UI.HtmlControls.HtmlSelect @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlSelect();
@@ -1195,6 +1206,10 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
             @__ctrl.Name = "responsibleSection_ddl";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "responsibleSection_ddl";
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control14();
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(@__ctrl1);
             return @__ctrl;
         }
         
@@ -1217,7 +1232,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control17() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control18() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1228,7 +1243,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control18() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control19() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1239,7 +1254,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control19() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control20() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1250,7 +1265,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control20() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control21() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1261,7 +1276,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control21() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control22() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1272,7 +1287,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control22() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control23() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1283,7 +1298,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control23() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control24() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1294,7 +1309,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control24() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control25() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1305,7 +1320,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control25() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control26() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1316,52 +1331,52 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control16(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
+        private void @__BuildControl__control17(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control17();
+            @__ctrl1 = this.@__BuildControl__control18();
             @__ctrl.Add(@__ctrl1);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control18();
+            @__ctrl2 = this.@__BuildControl__control19();
             @__ctrl.Add(@__ctrl2);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control19();
+            @__ctrl3 = this.@__BuildControl__control20();
             @__ctrl.Add(@__ctrl3);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl4;
-            @__ctrl4 = this.@__BuildControl__control20();
+            @__ctrl4 = this.@__BuildControl__control21();
             @__ctrl.Add(@__ctrl4);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl5;
-            @__ctrl5 = this.@__BuildControl__control21();
+            @__ctrl5 = this.@__BuildControl__control22();
             @__ctrl.Add(@__ctrl5);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl6;
-            @__ctrl6 = this.@__BuildControl__control22();
+            @__ctrl6 = this.@__BuildControl__control23();
             @__ctrl.Add(@__ctrl6);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl7;
-            @__ctrl7 = this.@__BuildControl__control23();
+            @__ctrl7 = this.@__BuildControl__control24();
             @__ctrl.Add(@__ctrl7);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl8;
-            @__ctrl8 = this.@__BuildControl__control24();
+            @__ctrl8 = this.@__BuildControl__control25();
             @__ctrl.Add(@__ctrl8);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl9;
-            @__ctrl9 = this.@__BuildControl__control25();
+            @__ctrl9 = this.@__BuildControl__control26();
             @__ctrl.Add(@__ctrl9);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control15() {
+        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control16() {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableRow();
-            this.@__BuildControl__control16(@__ctrl.Cells);
+            this.@__BuildControl__control17(@__ctrl.Cells);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control14(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
+        private void @__BuildControl__control15(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control15();
+            @__ctrl1 = this.@__BuildControl__control16();
             @__ctrl.Add(@__ctrl1);
         }
         
@@ -1374,7 +1389,7 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
             this.recommendationDetails_table = @__ctrl;
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "table");
             @__ctrl.ID = "recommendationDetails_table";
-            this.@__BuildControl__control14(@__ctrl.Rows);
+            this.@__BuildControl__control15(@__ctrl.Rows);
             return @__ctrl;
         }
         
@@ -2319,7 +2334,27 @@ namespace SL.FG.FFL.WebParts.IR05DIForm {
                         ";\r\n\r\n            if (ApprovalDate != null && FRDate != null && FRDate < Approval" +
                         "Date) {\r\n                $(\"[id$=LateSubmition_spn]\").show(\"fast\");\r\n           " +
                         " }\r\n            else $(\"[id$=LateSubmition_spn]\").hide(\"fast\");\r\n        }\r\n\r\n  " +
-                        "  });\r\n</script>\r\n\r\n\r\n"));
+                        "      //Populate Section on the basis of Department\r\n        $(\'[id$=responsible" +
+                        "Department_ddl]\').on(\'change\', function () {\r\n\r\n            var responsibleDepar" +
+                        "tment = $(\'[id$=responsibleDepartment_ddl] option:selected\').val();\r\n\r\n         " +
+                        "   if (responsibleDepartment != \'undefined\' && responsibleDepartment != \"\") {\r\n\r" +
+                        "\n                var targetListName = \"Section\";\r\n                clientContext " +
+                        "= new SP.ClientContext();\r\n                var targetList = clientContext.get_we" +
+                        "b().get_lists().getByTitle(targetListName);\r\n\r\n                var query = \"<Vie" +
+                        "w>\\\r\n                            <Query>\\\r\n                               <Where" +
+                        ">\\\r\n                                  <Eq>\\\r\n                                   " +
+                        "  <FieldRef Name=\'SectionDepartment\' />\\\r\n                                     <" +
+                        "Value Type=\'Number\'>\" + responsibleDepartment + \"</Value>\\\r\n                    " +
+                        "              </Eq>\\\r\n                               </Where>\\\r\n                " +
+                        "            </Query>\\\r\n                            </View>\";\r\n\r\n                " +
+                        "var camlQuery = new SP.CamlQuery();\r\n                camlQuery.set_viewXml(query" +
+                        ");\r\n\r\n                targetListItems = targetList.getItems(camlQuery);\r\n\r\n     " +
+                        "           clientContext.load(targetListItems, \'Include(ID,Title)\');\r\n\r\n        " +
+                        "        clientContext.executeQueryAsync(\r\n                    Function.createDel" +
+                        "egate(this,\r\n                    function () {\r\n                        _returnP" +
+                        "aram = success_Section(targetListItems);\r\n                    }),\r\n             " +
+                        "       Function.createDelegate(this, this.failed));\r\n            }\r\n        });\r" +
+                        "\n\r\n    });\r\n</script>\r\n\r\n\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

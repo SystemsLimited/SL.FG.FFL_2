@@ -57,6 +57,14 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.WebControls.GridView grdIR01Task;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.WebControls.GridView grdFlashReportTask;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         protected global::System.Web.UI.WebControls.GridView grdIR01DITasks;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
@@ -66,6 +74,10 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
         protected global::System.Web.UI.WebControls.GridView grdIRRecommendationsOnJob;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.WebControls.GridView grdWaiverOnJobTask;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
@@ -85,19 +97,7 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        protected global::System.Web.UI.WebControls.GridView grdWaiverOnJobTask;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
         protected global::System.Web.UI.WebControls.GridView grdWaiverOffJobTask;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
-        protected global::System.Web.UI.WebControls.GridView grdIR01Task;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
-        protected global::System.Web.UI.WebControls.GridView grdFlashReportTask;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebPartCodeGenerator", "12.0.0.0")]
         public static implicit operator global::System.Web.UI.TemplateControl(WorkQueue target) 
@@ -179,6 +179,44 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdIR01Task() {
+            global::System.Web.UI.WebControls.GridView @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.GridView();
+            this.grdIR01Task = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "grdIR01Task";
+            @__ctrl.AutoGenerateColumns = false;
+            @__ctrl.CssClass = "GridViewStyle";
+            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
+            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
+            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
+            @__ctrl.CellPadding = 10;
+            @__ctrl.CellSpacing = 10;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdFlashReportTask() {
+            global::System.Web.UI.WebControls.GridView @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.GridView();
+            this.grdFlashReportTask = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "grdFlashReportTask";
+            @__ctrl.AutoGenerateColumns = false;
+            @__ctrl.CssClass = "GridViewStyle";
+            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
+            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
+            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
+            @__ctrl.CellPadding = 10;
+            @__ctrl.CellSpacing = 10;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         private global::System.Web.UI.WebControls.GridView @__BuildControlgrdIR01DITasks() {
             global::System.Web.UI.WebControls.GridView @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.GridView();
@@ -223,6 +261,25 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
             this.grdIRRecommendationsOnJob = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.ID = "grdIRRecommendationsOnJob";
+            @__ctrl.AutoGenerateColumns = false;
+            @__ctrl.CssClass = "GridViewStyle";
+            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
+            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
+            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
+            @__ctrl.CellPadding = 10;
+            @__ctrl.CellSpacing = 10;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdWaiverOnJobTask() {
+            global::System.Web.UI.WebControls.GridView @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.GridView();
+            this.grdWaiverOnJobTask = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "grdWaiverOnJobTask";
             @__ctrl.AutoGenerateColumns = false;
             @__ctrl.CssClass = "GridViewStyle";
             @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
@@ -312,69 +369,12 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdWaiverOnJobTask() {
-            global::System.Web.UI.WebControls.GridView @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.GridView();
-            this.grdWaiverOnJobTask = @__ctrl;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "grdWaiverOnJobTask";
-            @__ctrl.AutoGenerateColumns = false;
-            @__ctrl.CssClass = "GridViewStyle";
-            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
-            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
-            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
-            @__ctrl.CellPadding = 10;
-            @__ctrl.CellSpacing = 10;
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
         private global::System.Web.UI.WebControls.GridView @__BuildControlgrdWaiverOffJobTask() {
             global::System.Web.UI.WebControls.GridView @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.GridView();
             this.grdWaiverOffJobTask = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.ID = "grdWaiverOffJobTask";
-            @__ctrl.AutoGenerateColumns = false;
-            @__ctrl.CssClass = "GridViewStyle";
-            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
-            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
-            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
-            @__ctrl.CellPadding = 10;
-            @__ctrl.CellSpacing = 10;
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdIR01Task() {
-            global::System.Web.UI.WebControls.GridView @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.GridView();
-            this.grdIR01Task = @__ctrl;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "grdIR01Task";
-            @__ctrl.AutoGenerateColumns = false;
-            @__ctrl.CssClass = "GridViewStyle";
-            @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
-            @__ctrl.HeaderStyle.BackColor = global::System.Drawing.Color.AliceBlue;
-            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100D, global::System.Web.UI.WebControls.UnitType.Percentage);
-            @__ctrl.CellPadding = 10;
-            @__ctrl.CellSpacing = 10;
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.WebControls.GridView @__BuildControlgrdFlashReportTask() {
-            global::System.Web.UI.WebControls.GridView @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.GridView();
-            this.grdFlashReportTask = @__ctrl;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "grdFlashReportTask";
             @__ctrl.AutoGenerateColumns = false;
             @__ctrl.CssClass = "GridViewStyle";
             @__ctrl.GridLines = global::System.Web.UI.WebControls.GridLines.Both;
@@ -395,505 +395,443 @@ namespace SL.FG.FFL.WebParts.WorkQueue {
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
             @__ctrl1 = this.@__BuildControlmessage_div();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-
-        <!--Rizwan -->
-        <!--Start -->
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>MSA Schedule</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse3"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse3"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput3"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        <div class=\"col-lg-12\">\r\n            <div class=\"panel panel-success\">\r" +
+                        "\n                <div class=\"panel-heading\">\r\n                    <div class=\"ro" +
+                        "w\">\r\n                        <div class=\"col-lg-9\">\r\n                           " +
+                        " <h5>MSA</h5>\r\n                        </div>\r\n                        <div clas" +
+                        "s=\"col-lg-3\">\r\n                            <span class=\"panel-title pull-right\"\r" +
+                        "\n                                data-toggle=\"collapse\"\r\n                       " +
+                        "         data-target=\"#collapse_01\">\r\n                                <i class=\'" +
+                        "glyphicon glyphicon-sort\'></i>\r\n                            </span>\r\n           " +
+                        "             </div>\r\n                    </div>\r\n                </div>\r\n       " +
+                        "         <div id=\"collapse_01\" class=\"panel-collapse collapse\">\r\n               " +
+                        "     <div class=\"panel-body\">\r\n                        <div class=\"col-lg-12\">\r\n" +
+                        "                            <div class=\"panel panel-success\">\r\n                 " +
+                        "               <div class=\"panel-heading\">\r\n                                    " +
+                        "<div class=\"row\">\r\n                                        <div class=\"col-lg-9\"" +
+                        ">\r\n                                            <h5>MSA Schedule</h5>\r\n          " +
+                        "                              </div>\r\n                                        <d" +
+                        "iv class=\"col-lg-3\">\r\n                                            <span class=\"p" +
+                        "anel-title pull-right\"\r\n                                                data-tog" +
+                        "gle=\"collapse\"\r\n                                                data-target=\"#co" +
+                        "llapse3\">\r\n                                                <i class=\'glyphicon g" +
+                        "lyphicon-sort\'></i>\r\n                                            </span>\r\n      " +
+                        "                                  </div>\r\n                                    </" +
+                        "div>\r\n                                </div>\r\n                                <d" +
+                        "iv id=\"collapse3\" class=\"panel-collapse collapse\">\r\n                            " +
+                        "        <div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n   " +
+                        "                                     <div class=\"row\">\r\n                        " +
+                        "                    <div style=\"margin: 10px;\">\r\n                               " +
+                        "                 <input type=\"text\" id=\"searchInput3\" placeholder=\"Search...\" cl" +
+                        "ass=\"form-control\" />\r\n                                            </div>\r\n     " +
+                        "                                   </div>\r\n                                     " +
+                        "   <div class=\"row\">\r\n                                            <div class=\"co" +
+                        "l-lg-12\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl2;
             @__ctrl2 = this.@__BuildControlgrdMSAScheduled();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>MSA (Saved as draft)</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse1"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse1"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput1"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>MSA (Saved as draft)</h5>\r\n                    " +
+                        "                    </div>\r\n                                        <div class=\"" +
+                        "col-lg-3\">\r\n                                            <span class=\"panel-title" +
+                        " pull-right\"\r\n                                                data-toggle=\"colla" +
+                        "pse\"\r\n                                                data-target=\"#collapse1\">\r" +
+                        "\n                                                <i class=\'glyphicon glyphicon-s" +
+                        "ort\'></i>\r\n                                            </span>\r\n                " +
+                        "                        </div>\r\n                                    </div>\r\n    " +
+                        "                            </div>\r\n                                <div id=\"col" +
+                        "lapse1\" class=\"panel-collapse collapse\">\r\n                                    <d" +
+                        "iv class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n             " +
+                        "                           <div class=\"row\">\r\n                                  " +
+                        "          <div style=\"margin: 10px;\">\r\n                                         " +
+                        "       <input type=\"text\" id=\"searchInput1\" placeholder=\"Search...\" class=\"form-" +
+                        "control\" />\r\n                                            </div>\r\n               " +
+                        "                         </div>\r\n                                        <div cl" +
+                        "ass=\"row\">\r\n                                            <div class=\"col-lg-12\">\r" +
+                        "\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl3;
             @__ctrl3 = this.@__BuildControlgrdMSATask();
             @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>MSA Recommendation</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse2"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse2"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput2"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>MSA Recommendations</h5>\r\n                     " +
+                        "                   </div>\r\n                                        <div class=\"c" +
+                        "ol-lg-3\">\r\n                                            <span class=\"panel-title " +
+                        "pull-right\"\r\n                                                data-toggle=\"collap" +
+                        "se\"\r\n                                                data-target=\"#collapse2\">\r\n" +
+                        "                                                <i class=\'glyphicon glyphicon-so" +
+                        "rt\'></i>\r\n                                            </span>\r\n                 " +
+                        "                       </div>\r\n                                    </div>\r\n     " +
+                        "                           </div>\r\n                                <div id=\"coll" +
+                        "apse2\" class=\"panel-collapse collapse\">\r\n                                    <di" +
+                        "v class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n              " +
+                        "                          <div class=\"row\">\r\n                                   " +
+                        "         <div style=\"margin: 10px;\">\r\n                                          " +
+                        "      <input type=\"text\" id=\"searchInput2\" placeholder=\"Search...\" class=\"form-c" +
+                        "ontrol\" />\r\n                                            </div>\r\n                " +
+                        "                        </div>\r\n                                        <div cla" +
+                        "ss=\"row\">\r\n                                            <div class=\"col-lg-12\">\r\n" +
+                        "                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl4;
             @__ctrl4 = this.@__BuildControlgrdMSARecommendationTask();
             @__parser.AddParsedSubObject(@__ctrl4);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IR01 Detailed Investigation</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse12"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse12"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput12"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                    </div>\r\n                </div>\r\n            </d" +
+                        "iv>\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <div class=\"pa" +
+                        "nel panel-success\">\r\n                <div class=\"panel-heading\">\r\n              " +
+                        "      <div class=\"row\">\r\n                        <div class=\"col-lg-9\">\r\n       " +
+                        "                     <h5>IR-On-Job</h5>\r\n                        </div>\r\n       " +
+                        "                 <div class=\"col-lg-3\">\r\n                            <span class" +
+                        "=\"panel-title pull-right\"\r\n                                data-toggle=\"collapse" +
+                        "\"\r\n                                data-target=\"#collapse_02\">\r\n                " +
+                        "                <i class=\'glyphicon glyphicon-sort\'></i>\r\n                      " +
+                        "      </span>\r\n                        </div>\r\n                    </div>\r\n     " +
+                        "           </div>\r\n                <div id=\"collapse_02\" class=\"panel-collapse c" +
+                        "ollapse\">\r\n                    <div class=\"panel-body\">\r\n                       " +
+                        " <div class=\"col-lg-12\">\r\n                            <div class=\"panel panel-su" +
+                        "ccess\">\r\n                                <div class=\"panel-heading\">\r\n          " +
+                        "                          <div class=\"row\">\r\n                                   " +
+                        "     <div class=\"col-lg-9\">\r\n                                            <h5>IR0" +
+                        "1</h5>\r\n                                        </div>\r\n                        " +
+                        "                <div class=\"col-lg-3\">\r\n                                        " +
+                        "    <span class=\"panel-title pull-right\"\r\n                                      " +
+                        "          data-toggle=\"collapse\"\r\n                                              " +
+                        "  data-target=\"#collapse_21\">\r\n                                                <" +
+                        "i class=\'glyphicon glyphicon-sort\'></i>\r\n                                       " +
+                        "     </span>\r\n                                        </div>\r\n                  " +
+                        "                  </div>\r\n                                </div>\r\n              " +
+                        "                  <div id=\"collapse_21\" class=\"panel-collapse collapse\">\r\n      " +
+                        "                              <div class=\"panel-body\" style=\"height: 200px; over" +
+                        "flow-y: scroll;\">\r\n                                        <div class=\"row\">\r\n  " +
+                        "                                          <div style=\"margin: 10px;\">\r\n         " +
+                        "                                       <input type=\"text\" id=\"searchInput_21\" pl" +
+                        "aceholder=\"Search...\" class=\"form-control\" />\r\n                                 " +
+                        "           </div>\r\n                                        </div>\r\n             " +
+                        "                           <div class=\"row\">\r\n                                  " +
+                        "          <div class=\"col-lg-12\">\r\n                                             " +
+                        "   "));
             global::System.Web.UI.WebControls.GridView @__ctrl5;
-            @__ctrl5 = this.@__BuildControlgrdIR01DITasks();
+            @__ctrl5 = this.@__BuildControlgrdIR01Task();
             @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IR03 Detailed Investigation</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse13"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse13"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput13"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>Flash Report</h5>\r\n                            " +
+                        "            </div>\r\n                                        <div class=\"col-lg-3" +
+                        "\">\r\n                                            <span class=\"panel-title pull-ri" +
+                        "ght\"\r\n                                                data-toggle=\"collapse\"\r\n  " +
+                        "                                              data-target=\"#collapse_22\">\r\n     " +
+                        "                                           <i class=\'glyphicon glyphicon-sort\'><" +
+                        "/i>\r\n                                            </span>\r\n                      " +
+                        "                  </div>\r\n                                    </div>\r\n          " +
+                        "                      </div>\r\n                                <div id=\"collapse_" +
+                        "22\" class=\"panel-collapse collapse\">\r\n                                    <div c" +
+                        "lass=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n                 " +
+                        "                       <div class=\"row\">\r\n                                      " +
+                        "      <div style=\"margin: 10px;\">\r\n                                             " +
+                        "   <input type=\"text\" id=\"searchInput_22\" placeholder=\"Search...\" class=\"form-co" +
+                        "ntrol\" />\r\n                                            </div>\r\n                 " +
+                        "                       </div>\r\n                                        <div clas" +
+                        "s=\"row\">\r\n                                            <div class=\"col-lg-12\">\r\n " +
+                        "                                               "));
             global::System.Web.UI.WebControls.GridView @__ctrl6;
-            @__ctrl6 = this.@__BuildControlgrdIR03DITasks();
+            @__ctrl6 = this.@__BuildControlgrdFlashReportTask();
             @__parser.AddParsedSubObject(@__ctrl6);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IR Recommendations On Job</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse11"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse11"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput11"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>IR01 Detailed Investigation</h5>\r\n             " +
+                        "                           </div>\r\n                                        <div " +
+                        "class=\"col-lg-3\">\r\n                                            <span class=\"pane" +
+                        "l-title pull-right\"\r\n                                                data-toggle" +
+                        "=\"collapse\"\r\n                                                data-target=\"#colla" +
+                        "pse_23\">\r\n                                                <i class=\'glyphicon gl" +
+                        "yphicon-sort\'></i>\r\n                                            </span>\r\n       " +
+                        "                                 </div>\r\n                                    </d" +
+                        "iv>\r\n                                </div>\r\n                                <di" +
+                        "v id=\"collapse_23\" class=\"panel-collapse collapse\">\r\n                           " +
+                        "         <div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n  " +
+                        "                                      <div class=\"row\">\r\n                       " +
+                        "                     <div style=\"margin: 10px;\">\r\n                              " +
+                        "                  <input type=\"text\" id=\"searchInput_23\" placeholder=\"Search...\"" +
+                        " class=\"form-control\" />\r\n                                            </div>\r\n  " +
+                        "                                      </div>\r\n                                  " +
+                        "      <div class=\"row\">\r\n                                            <div class=" +
+                        "\"col-lg-12\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl7;
-            @__ctrl7 = this.@__BuildControlgrdIRRecommendationsOnJob();
+            @__ctrl7 = this.@__BuildControlgrdIR01DITasks();
             @__parser.AddParsedSubObject(@__ctrl7);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "         </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n   " +
-                        "     <!--End WorkQueue -->\r\n\r\n\r\n        <!--Usama -->\r\n        <!--Start -->\r\n  " +
-                        "      <div class=\"col-lg-12\">\r\n            <div class=\"panel panel-success\">\r\n  " +
-                        "              <div class=\"panel-heading\">\r\n                    <div class=\"row\">" +
-                        "\r\n                        <div class=\"col-lg-9\">\r\n                            <h" +
-                        "5>IIR 01 Off The Job Task</h5>\r\n                        </div>\r\n                " +
-                        "        <div class=\"col-lg-3\">\r\n                            <span class=\"panel-t" +
-                        "itle pull-right\"\r\n                                data-toggle=\"collapse\"\r\n      " +
-                        "                          data-target=\"#collapse30\">\r\n                          " +
-                        "      <i class=\'glyphicon glyphicon-sort\'></i>\r\n                            </sp" +
-                        "an>\r\n                        </div>\r\n                    </div>\r\n               " +
-                        " </div>\r\n                <div id=\"collapse30\" class=\"panel-collapse collapse\">\r\n" +
-                        "                    <div class=\"panel-body\" style=\"height: 200px; overflow-y: sc" +
-                        "roll;\">\r\n                        <div class=\"row\">\r\n                            " +
-                        "<div style=\"margin: 10px;\">\r\n                                <input type=\"text\" " +
-                        "id=\"searchInput30\" placeholder=\"Search...\" class=\"form-control\" />\r\n            " +
-                        "                </div>\r\n                        </div>\r\n                        " +
-                        "<div class=\"row\">\r\n                            <div class=\"col-lg-12\">\r\n        " +
-                        "                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>IR03 Detailed Investigation</h5>\r\n             " +
+                        "                           </div>\r\n                                        <div " +
+                        "class=\"col-lg-3\">\r\n                                            <span class=\"pane" +
+                        "l-title pull-right\"\r\n                                                data-toggle" +
+                        "=\"collapse\"\r\n                                                data-target=\"#colla" +
+                        "pse_24\">\r\n                                                <i class=\'glyphicon gl" +
+                        "yphicon-sort\'></i>\r\n                                            </span>\r\n       " +
+                        "                                 </div>\r\n                                    </d" +
+                        "iv>\r\n                                </div>\r\n                                <di" +
+                        "v id=\"collapse_24\" class=\"panel-collapse collapse\">\r\n                           " +
+                        "         <div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n  " +
+                        "                                      <div class=\"row\">\r\n                       " +
+                        "                     <div style=\"margin: 10px;\">\r\n                              " +
+                        "                  <input type=\"text\" id=\"searchInput_24\" placeholder=\"Search...\"" +
+                        " class=\"form-control\" />\r\n                                            </div>\r\n  " +
+                        "                                      </div>\r\n                                  " +
+                        "      <div class=\"row\">\r\n                                            <div class=" +
+                        "\"col-lg-12\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl8;
-            @__ctrl8 = this.@__BuildControlgrdIIROffJobTask();
+            @__ctrl8 = this.@__BuildControlgrdIR03DITasks();
             @__parser.AddParsedSubObject(@__ctrl8);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>Flash Report Off The Job Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse32"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse32"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput32"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>IR Recommendations</h5>\r\n                      " +
+                        "                  </div>\r\n                                        <div class=\"co" +
+                        "l-lg-3\">\r\n                                            <span class=\"panel-title p" +
+                        "ull-right\"\r\n                                                data-toggle=\"collaps" +
+                        "e\"\r\n                                                data-target=\"#collapse_25\">\r" +
+                        "\n                                                <i class=\'glyphicon glyphicon-s" +
+                        "ort\'></i>\r\n                                            </span>\r\n                " +
+                        "                        </div>\r\n                                    </div>\r\n    " +
+                        "                            </div>\r\n                                <div id=\"col" +
+                        "lapse_25\" class=\"panel-collapse collapse\">\r\n                                    " +
+                        "<div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n           " +
+                        "                             <div class=\"row\">\r\n                                " +
+                        "            <div style=\"margin: 10px;\">\r\n                                       " +
+                        "         <input type=\"text\" id=\"searchInput_25\" placeholder=\"Search...\" class=\"f" +
+                        "orm-control\" />\r\n                                            </div>\r\n           " +
+                        "                             </div>\r\n                                        <di" +
+                        "v class=\"row\">\r\n                                            <div class=\"col-lg-1" +
+                        "2\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl9;
-            @__ctrl9 = this.@__BuildControlgrdFROffJobTask();
+            @__ctrl9 = this.@__BuildControlgrdIRRecommendationsOnJob();
             @__parser.AddParsedSubObject(@__ctrl9);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IR05 Off Job Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse34"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse34"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput34"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>Waiver Tasks</h5>\r\n                            " +
+                        "            </div>\r\n                                        <div class=\"col-lg-3" +
+                        "\">\r\n                                            <span class=\"panel-title pull-ri" +
+                        "ght\"\r\n                                                data-toggle=\"collapse\"\r\n  " +
+                        "                                              data-target=\"#collapse_26\">\r\n     " +
+                        "                                           <i class=\'glyphicon glyphicon-sort\'><" +
+                        "/i>\r\n                                            </span>\r\n                      " +
+                        "                  </div>\r\n                                    </div>\r\n          " +
+                        "                      </div>\r\n                                <div id=\"collapse_" +
+                        "26\" class=\"panel-collapse collapse\">\r\n                                    <div c" +
+                        "lass=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n                 " +
+                        "                       <div class=\"row\">\r\n                                      " +
+                        "      <div style=\"margin: 10px;\">\r\n                                             " +
+                        "   <input type=\"text\" id=\"searchInput_26\" placeholder=\"Search...\" class=\"form-co" +
+                        "ntrol\" />\r\n                                            </div>\r\n                 " +
+                        "                       </div>\r\n                                        <div clas" +
+                        "s=\"row\">\r\n                                            <div class=\"col-lg-12\">\r\n " +
+                        "                                               "));
             global::System.Web.UI.WebControls.GridView @__ctrl10;
-            @__ctrl10 = this.@__BuildControlgrdIR05OffJobTask();
+            @__ctrl10 = this.@__BuildControlgrdWaiverOnJobTask();
             @__parser.AddParsedSubObject(@__ctrl10);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IR05 Off Job Recommendation Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse36"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse36"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput36"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                    </div>\r\n                </div>\r\n            </d" +
+                        "iv>\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <div class=\"pa" +
+                        "nel panel-success\">\r\n                <div class=\"panel-heading\">\r\n              " +
+                        "      <div class=\"row\">\r\n                        <div class=\"col-lg-9\">\r\n       " +
+                        "                     <h5>IR-Off-Job</h5>\r\n                        </div>\r\n      " +
+                        "                  <div class=\"col-lg-3\">\r\n                            <span clas" +
+                        "s=\"panel-title pull-right\"\r\n                                data-toggle=\"collaps" +
+                        "e\"\r\n                                data-target=\"#collapse_03\">\r\n               " +
+                        "                 <i class=\'glyphicon glyphicon-sort\'></i>\r\n                     " +
+                        "       </span>\r\n                        </div>\r\n                    </div>\r\n    " +
+                        "            </div>\r\n                <div id=\"collapse_03\" class=\"panel-collapse " +
+                        "collapse\">\r\n                    <div class=\"panel-body\">\r\n                      " +
+                        "  <div class=\"col-lg-12\">\r\n                            <div class=\"panel panel-s" +
+                        "uccess\">\r\n                                <div class=\"panel-heading\">\r\n         " +
+                        "                           <div class=\"row\">\r\n                                  " +
+                        "      <div class=\"col-lg-9\">\r\n                                            <h5>IR" +
+                        "01</h5>\r\n                                        </div>\r\n                       " +
+                        "                 <div class=\"col-lg-3\">\r\n                                       " +
+                        "     <span class=\"panel-title pull-right\"\r\n                                     " +
+                        "           data-toggle=\"collapse\"\r\n                                             " +
+                        "   data-target=\"#collapse_31\">\r\n                                                " +
+                        "<i class=\'glyphicon glyphicon-sort\'></i>\r\n                                      " +
+                        "      </span>\r\n                                        </div>\r\n                 " +
+                        "                   </div>\r\n                                </div>\r\n             " +
+                        "                   <div id=\"collapse_31\" class=\"panel-collapse collapse\">\r\n     " +
+                        "                               <div class=\"panel-body\" style=\"height: 200px; ove" +
+                        "rflow-y: scroll;\">\r\n                                        <div class=\"row\">\r\n " +
+                        "                                           <div style=\"margin: 10px;\">\r\n        " +
+                        "                                        <input type=\"text\" id=\"searchInput_31\" p" +
+                        "laceholder=\"Search...\" class=\"form-control\" />\r\n                                " +
+                        "            </div>\r\n                                        </div>\r\n            " +
+                        "                            <div class=\"row\">\r\n                                 " +
+                        "           <div class=\"col-lg-12\">\r\n                                            " +
+                        "    "));
             global::System.Web.UI.WebControls.GridView @__ctrl11;
-            @__ctrl11 = this.@__BuildControlgrdIR5OffJobRecomendationTask();
+            @__ctrl11 = this.@__BuildControlgrdIIROffJobTask();
             @__parser.AddParsedSubObject(@__ctrl11);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>On The Job Waiver Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse38"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse38"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput38"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>Flash Report</h5>\r\n                            " +
+                        "            </div>\r\n                                        <div class=\"col-lg-3" +
+                        "\">\r\n                                            <span class=\"panel-title pull-ri" +
+                        "ght\"\r\n                                                data-toggle=\"collapse\"\r\n  " +
+                        "                                              data-target=\"#collapse_32\">\r\n     " +
+                        "                                           <i class=\'glyphicon glyphicon-sort\'><" +
+                        "/i>\r\n                                            </span>\r\n                      " +
+                        "                  </div>\r\n                                    </div>\r\n          " +
+                        "                      </div>\r\n                                <div id=\"collapse_" +
+                        "32\" class=\"panel-collapse collapse\">\r\n                                    <div c" +
+                        "lass=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n                 " +
+                        "                       <div class=\"row\">\r\n                                      " +
+                        "      <div style=\"margin: 10px;\">\r\n                                             " +
+                        "   <input type=\"text\" id=\"searchInput_32\" placeholder=\"Search...\" class=\"form-co" +
+                        "ntrol\" />\r\n                                            </div>\r\n                 " +
+                        "                       </div>\r\n                                        <div clas" +
+                        "s=\"row\">\r\n                                            <div class=\"col-lg-12\">\r\n " +
+                        "                                               "));
             global::System.Web.UI.WebControls.GridView @__ctrl12;
-            @__ctrl12 = this.@__BuildControlgrdWaiverOnJobTask();
+            @__ctrl12 = this.@__BuildControlgrdFROffJobTask();
             @__parser.AddParsedSubObject(@__ctrl12);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>Off The Job Waiver Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse39"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse39"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput39"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>IR05 Detailed Investigation</h5>\r\n             " +
+                        "                           </div>\r\n                                        <div " +
+                        "class=\"col-lg-3\">\r\n                                            <span class=\"pane" +
+                        "l-title pull-right\"\r\n                                                data-toggle" +
+                        "=\"collapse\"\r\n                                                data-target=\"#colla" +
+                        "pse_33\">\r\n                                                <i class=\'glyphicon gl" +
+                        "yphicon-sort\'></i>\r\n                                            </span>\r\n       " +
+                        "                                 </div>\r\n                                    </d" +
+                        "iv>\r\n                                </div>\r\n                                <di" +
+                        "v id=\"collapse_33\" class=\"panel-collapse collapse\">\r\n                           " +
+                        "         <div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n  " +
+                        "                                      <div class=\"row\">\r\n                       " +
+                        "                     <div style=\"margin: 10px;\">\r\n                              " +
+                        "                  <input type=\"text\" id=\"searchInput_33\" placeholder=\"Search...\"" +
+                        " class=\"form-control\" />\r\n                                            </div>\r\n  " +
+                        "                                      </div>\r\n                                  " +
+                        "      <div class=\"row\">\r\n                                            <div class=" +
+                        "\"col-lg-12\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl13;
-            @__ctrl13 = this.@__BuildControlgrdWaiverOffJobTask();
+            @__ctrl13 = this.@__BuildControlgrdIR05OffJobTask();
             @__parser.AddParsedSubObject(@__ctrl13);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>IIR-01 On The Job Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse40"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse40"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput40"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>IR Recommendations</h5>\r\n                      " +
+                        "                  </div>\r\n                                        <div class=\"co" +
+                        "l-lg-3\">\r\n                                            <span class=\"panel-title p" +
+                        "ull-right\"\r\n                                                data-toggle=\"collaps" +
+                        "e\"\r\n                                                data-target=\"#collapse_34\">\r" +
+                        "\n                                                <i class=\'glyphicon glyphicon-s" +
+                        "ort\'></i>\r\n                                            </span>\r\n                " +
+                        "                        </div>\r\n                                    </div>\r\n    " +
+                        "                            </div>\r\n                                <div id=\"col" +
+                        "lapse_34\" class=\"panel-collapse collapse\">\r\n                                    " +
+                        "<div class=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n           " +
+                        "                             <div class=\"row\">\r\n                                " +
+                        "            <div style=\"margin: 10px;\">\r\n                                       " +
+                        "         <input type=\"text\" id=\"searchInput_34\" placeholder=\"Search...\" class=\"f" +
+                        "orm-control\" />\r\n                                            </div>\r\n           " +
+                        "                             </div>\r\n                                        <di" +
+                        "v class=\"row\">\r\n                                            <div class=\"col-lg-1" +
+                        "2\">\r\n                                                "));
             global::System.Web.UI.WebControls.GridView @__ctrl14;
-            @__ctrl14 = this.@__BuildControlgrdIR01Task();
+            @__ctrl14 = this.@__BuildControlgrdIR5OffJobRecomendationTask();
             @__parser.AddParsedSubObject(@__ctrl14);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=""col-lg-12"">
-            <div class=""panel panel-success"">
-                <div class=""panel-heading"">
-                    <div class=""row"">
-                        <div class=""col-lg-9"">
-                            <h5>Flash Report On The Job Task</h5>
-                        </div>
-                        <div class=""col-lg-3"">
-                            <span class=""panel-title pull-right""
-                                data-toggle=""collapse""
-                                data-target=""#collapse42"">
-                                <i class='glyphicon glyphicon-sort'></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div id=""collapse42"" class=""panel-collapse collapse"">
-                    <div class=""panel-body"" style=""height: 200px; overflow-y: scroll;"">
-                        <div class=""row"">
-                            <div style=""margin: 10px;"">
-                                <input type=""text"" id=""searchInput42"" placeholder=""Search..."" class=""form-control"" />
-                            </div>
-                        </div>
-                        <div class=""row"">
-                            <div class=""col-lg-12"">
-                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
+                        "             </div>\r\n                                    </div>\r\n               " +
+                        "                 </div>\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                        <div class=\"col-lg-12\">\r\n                  " +
+                        "          <div class=\"panel panel-success\">\r\n                                <di" +
+                        "v class=\"panel-heading\">\r\n                                    <div class=\"row\">\r" +
+                        "\n                                        <div class=\"col-lg-9\">\r\n               " +
+                        "                             <h5>Waiver Tasks</h5>\r\n                            " +
+                        "            </div>\r\n                                        <div class=\"col-lg-3" +
+                        "\">\r\n                                            <span class=\"panel-title pull-ri" +
+                        "ght\"\r\n                                                data-toggle=\"collapse\"\r\n  " +
+                        "                                              data-target=\"#collapse_35\">\r\n     " +
+                        "                                           <i class=\'glyphicon glyphicon-sort\'><" +
+                        "/i>\r\n                                            </span>\r\n                      " +
+                        "                  </div>\r\n                                    </div>\r\n          " +
+                        "                      </div>\r\n                                <div id=\"collapse_" +
+                        "35\" class=\"panel-collapse collapse\">\r\n                                    <div c" +
+                        "lass=\"panel-body\" style=\"height: 200px; overflow-y: scroll;\">\r\n                 " +
+                        "                       <div class=\"row\">\r\n                                      " +
+                        "      <div style=\"margin: 10px;\">\r\n                                             " +
+                        "   <input type=\"text\" id=\"searchInput_35\" placeholder=\"Search...\" class=\"form-co" +
+                        "ntrol\" />\r\n                                            </div>\r\n                 " +
+                        "                       </div>\r\n                                        <div clas" +
+                        "s=\"row\">\r\n                                            <div class=\"col-lg-12\">\r\n " +
+                        "                                               "));
             global::System.Web.UI.WebControls.GridView @__ctrl15;
-            @__ctrl15 = this.@__BuildControlgrdFlashReportTask();
+            @__ctrl15 = this.@__BuildControlgrdWaiverOffJobTask();
             @__parser.AddParsedSubObject(@__ctrl15);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>        
-         <!--End WorkQueue -->
-
+        </div>
     </div>
 </div>
+
 
 <script src=""/_layouts/15/SL.FG.FFL/Scripts/jQuery.js""></script>
 

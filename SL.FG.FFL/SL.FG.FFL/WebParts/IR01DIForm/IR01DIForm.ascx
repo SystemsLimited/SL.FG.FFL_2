@@ -87,11 +87,47 @@
 
         var message = '';
 
-        if (isSavedAsDraft == false) {
-            if (errorFlag == true) {
-                message += "**** Please Provide value for the required fields ****";
+        if ($('.errorMsg').length > 0) {
+            $('.errorMsg').remove();
+        }
+
+        if (action != "SaveAsDraft") {
+
+            var errorMsg = 'Please enter atleast one';
+
+            var countKeyFindings = $('[id$=noOfKeyFindings_span]').text();
+            var countPeopleIntervieweds = $('[id$=noOfPeopleInterviewed_span]').text();
+            var countRootCauses = $('[id$=noOfRootCauses_span]').text();
+
+            if (countKeyFindings == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=keyFindings_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
             }
 
+            if (countPeopleIntervieweds == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=peopleInterviewed_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
+            }
+
+            if (countRootCauses == "0") {
+                errorFlag = true;
+
+                var tempControl = $('[id$=rootCauses_tf]').parent().parent().parent();
+
+                var spanTemp = '<span class="errorMsg">' + errorMsg + '</span>';
+
+                $(tempControl).append(spanTemp);
+            }
         }
 
         if (errorFlag == false) {
@@ -206,7 +242,8 @@
             return true;
         }
         else {
-            ValidationSummary(message, controlList);
+            //ValidationSummary(message, controlList);
+            alert("Validation incomplete: Please verify the data.");
             return false;
         }
     }
@@ -294,86 +331,73 @@
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <h5>Incident Details</h5>
+                            Incident Details
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>Title</label>
+                                <input type='text' class="form-control" id="incidentTitle_tf" runat="server" disabled />
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6">
+                                    <label>Date <span style="color: red">&nbsp;*</span></label>
+                                    <div class="form-group">
+                                        <SharePoint:DateTimeControl ID="incidentDate_dtc" runat="server" DateOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
+                                    </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <span class="panel-title pull-right"
-                                        data-toggle="collapse"
-                                        data-target="#collapse1">
-                                        <i class='glyphicon glyphicon-sort'></i>
-                                    </span>
+                                <div class="col-lg-6">
+                                    <label>Time<span style="color: red">&nbsp;*</span></label>
+                                    <div class="form-group">
+                                        <SharePoint:DateTimeControl ID="incidentTime_dtc" runat="server" TimeOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="form-group">
-                                    <label>Title</label>
-                                    <input type='text' class="form-control" id="incidentTitle_tf" runat="server" disabled />
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-lg-6">
-                                        <label>Date <span style="color: red">&nbsp;*</span></label>
-                                        <div class="form-group">
-                                            <SharePoint:DateTimeControl ID="incidentDate_dtc" runat="server" DateOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <label>Time<span style="color: red">&nbsp;*</span></label>
-                                        <div class="form-group">
-                                            <SharePoint:DateTimeControl ID="incidentTime_dtc" runat="server" TimeOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
-                                        </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Unit/Area<span style="color: red">&nbsp;*</span></label>
+                                        <asp:DropDownList ID="incidentUnitArea_ddl" runat="server" CssClass="form-control" AutoPostBack="false" Enabled="false" />
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label>Unit/Area<span style="color: red">&nbsp;*</span></label>
-                                            <asp:DropDownList ID="incidentUnitArea_ddl" runat="server" CssClass="form-control" AutoPostBack="false" Enabled="false" />
-                                        </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Incident Score</label>
+                                        <input type='text' class="form-control" id="incidentScore_tf" runat="server" disabled />
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label>Incident Score</label>
-                                            <input type='text' class="form-control" id="incidentScore_tf" runat="server" disabled />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea class="form-control" id="incidentDescription_ta" runat="server"> </textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Actions Taken</label>
+                                <textarea class="form-control" id="incidentActionsTaken_ta" runat="server"> </textarea>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6">
+                                    <label>Is Detailed Report Required on IR-03 Form?</label>
+                                    <div class="form-group">
+                                        <div class="form-inline col-lg-6" id="detailedReportYes_div" runat="server">
+                                            <label>Yes</label>
+                                            <input type="radio" id="detailedReportYes_rb" value="Yes" disabled checked>
+                                        </div>
+                                        <div class="form-inline col-lg-6" id="detailedReportNo_div" runat="server">
+                                            <label>No</label>
+                                            <input type="radio" id="detailedReportNo_rb" value="No" disabled checked>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label>Description</label>
-                                    <textarea class="form-control" id="incidentDescription_ta" runat="server"> </textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label>Actions Taken</label>
-                                    <textarea class="form-control" id="incidentActionsTaken_ta" runat="server"> </textarea>
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-lg-6">
-                                        <label>Is Detailed Report Required on IR-03 Form?</label>
-                                        <div class="form-group">
-                                            <div class="form-inline col-lg-6" id="detailedReportYes_div" runat="server">
-                                                <label>Yes</label>
-                                                <input type="radio" id="detailedReportYes_rb" value="Yes" disabled checked>
-                                            </div>
-                                            <div class="form-inline col-lg-6" id="detailedReportNo_div" runat="server">
-                                                <label>No</label>
-                                                <input type="radio" id="detailedReportNo_rb" value="No" disabled checked>
-                                            </div>
+                                <div class="col-lg-6">
+                                    <label>If so, Is Investigation Team Required?</label>
+                                    <div class="form-group">
+                                        <div class="form-inline col-lg-6" id="investigationTeamYes_div" runat="server">
+                                            <label>Yes</label>
+                                            <input type="radio" id="investigationTeamYes_rb" value="Yes" disabled checked>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <label>If so, Is Investigation Team Required?</label>
-                                        <div class="form-group">
-                                            <div class="form-inline col-lg-6" id="investigationTeamYes_div" runat="server">
-                                                <label>Yes</label>
-                                                <input type="radio" id="investigationTeamYes_rb" value="Yes" disabled checked>
-                                            </div>
-                                            <div class="form-inline col-lg-6" id="investigationTeamNo_div" runat="server">
-                                                <label>No</label>
-                                                <input type="radio" id="investigationTeamNo_rb" value="No" disabled checked>
-                                            </div>
+                                        <div class="form-inline col-lg-6" id="investigationTeamNo_div" runat="server">
+                                            <label>No</label>
+                                            <input type="radio" id="investigationTeamNo_rb" value="No" disabled checked>
                                         </div>
                                     </div>
                                 </div>
@@ -405,9 +429,10 @@
                                 <div class="panel panel-success">
                                     <div class="panel-body">
                                         <div class="form-group">
+                                            <label>Key Findings</label>
                                             <div class="form-group">
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="keyFindings_tf" runat="server" placeholder="Please Enter Key Findings..." />
+                                                    <input type='text' class="form-control" id="keyFindings_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="keyFindings_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -432,9 +457,10 @@
                                 <div class="panel panel-success">
                                     <div class="panel-body">
                                         <div class="form-group">
+                                            <label>People Interviewed</label>
                                             <div class="form-group">
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="peopleInterviewed_tf" runat="server" placeholder="Please Enter People Interviewed..." />
+                                                    <input type='text' class="form-control" id="peopleInterviewed_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="peopleInterviewed_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -460,8 +486,9 @@
                                     <div class="panel-body">
                                         <div class="form-group">
                                             <div class="form-group">
+                                                <label>Root Causes</label>
                                                 <div class='input-group'>
-                                                    <input type='text' class="form-control" id="rootCauses_tf" runat="server" placeholder="Please Enter Root Causes..." />
+                                                    <input type='text' class="form-control" id="rootCauses_tf" runat="server" placeholder="Please Enter..." />
                                                     <span id="rootCauses_span" class="input-group-addon">&nbsp;Add
                                                     </span>
                                                 </div>
@@ -522,6 +549,7 @@
                                             <div class="form-group">
                                                 <label>Responsible Unit/Section</label>
                                                 <select name="responsibleSection_ddl" class="form-control" id="responsibleSection_ddl" runat="server">
+                                                    <option value='0'>Please Select</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -700,10 +728,10 @@
             <asp:HiddenField ID="hdnRootCausesList" runat="server" Value="" />
             <asp:HiddenField ID="hdnRecommendationList" runat="server" Value="" />
 
-            <div class="col-lg-6" id="FRTagetDate_div" runat="server" style="display:none;">
-                    <SharePoint:DateTimeControl ID="FRTargetDate_dtc" runat="server" DateOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
+            <div class="col-lg-6" id="FRTagetDate_div" runat="server" style="display: none;">
+                <SharePoint:DateTimeControl ID="FRTargetDate_dtc" runat="server" DateOnly="true" CssClassTextBox="form-control" AutoPostBack="false" Enabled="false" UseTimeZoneAdjustment="false" LocaleId="2057" />
             </div>
-            
+
 
             <br />
             <br />

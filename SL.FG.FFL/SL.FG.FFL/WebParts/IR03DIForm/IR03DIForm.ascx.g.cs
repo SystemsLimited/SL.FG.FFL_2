@@ -1319,7 +1319,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "rootCauses_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter Sequence of Events...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -1424,7 +1424,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "keyFindings_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter Key Findings...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -1529,7 +1529,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "peopleInterviewed_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter Investigations/Interviews...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -1670,6 +1670,17 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control71() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Value = "0";
+            @__ctrl.Text = "Please Select";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         private global::System.Web.UI.HtmlControls.HtmlSelect @__BuildControlresponsibleSection_ddl() {
             global::System.Web.UI.HtmlControls.HtmlSelect @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlSelect();
@@ -1677,6 +1688,10 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
             @__ctrl.Name = "responsibleSection_ddl";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "responsibleSection_ddl";
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control71();
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(@__ctrl1);
             return @__ctrl;
         }
         
@@ -1699,7 +1714,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control74() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control75() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1710,7 +1725,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control75() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control76() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1721,7 +1736,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control76() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control77() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1732,7 +1747,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control77() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control78() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1743,7 +1758,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control78() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control79() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1754,7 +1769,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control79() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control80() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1765,7 +1780,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control80() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control81() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1776,7 +1791,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control81() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control82() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1787,7 +1802,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control82() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control83() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1798,52 +1813,52 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control73(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
+        private void @__BuildControl__control74(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control74();
+            @__ctrl1 = this.@__BuildControl__control75();
             @__ctrl.Add(@__ctrl1);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control75();
+            @__ctrl2 = this.@__BuildControl__control76();
             @__ctrl.Add(@__ctrl2);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control76();
+            @__ctrl3 = this.@__BuildControl__control77();
             @__ctrl.Add(@__ctrl3);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl4;
-            @__ctrl4 = this.@__BuildControl__control77();
+            @__ctrl4 = this.@__BuildControl__control78();
             @__ctrl.Add(@__ctrl4);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl5;
-            @__ctrl5 = this.@__BuildControl__control78();
+            @__ctrl5 = this.@__BuildControl__control79();
             @__ctrl.Add(@__ctrl5);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl6;
-            @__ctrl6 = this.@__BuildControl__control79();
+            @__ctrl6 = this.@__BuildControl__control80();
             @__ctrl.Add(@__ctrl6);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl7;
-            @__ctrl7 = this.@__BuildControl__control80();
+            @__ctrl7 = this.@__BuildControl__control81();
             @__ctrl.Add(@__ctrl7);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl8;
-            @__ctrl8 = this.@__BuildControl__control81();
+            @__ctrl8 = this.@__BuildControl__control82();
             @__ctrl.Add(@__ctrl8);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl9;
-            @__ctrl9 = this.@__BuildControl__control82();
+            @__ctrl9 = this.@__BuildControl__control83();
             @__ctrl.Add(@__ctrl9);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control72() {
+        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control73() {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableRow();
-            this.@__BuildControl__control73(@__ctrl.Cells);
+            this.@__BuildControl__control74(@__ctrl.Cells);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control71(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
+        private void @__BuildControl__control72(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control72();
+            @__ctrl1 = this.@__BuildControl__control73();
             @__ctrl.Add(@__ctrl1);
         }
         
@@ -1856,7 +1871,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
             this.recommendationDetails_table = @__ctrl;
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "table");
             @__ctrl.ID = "recommendationDetails_table";
-            this.@__BuildControl__control71(@__ctrl.Rows);
+            this.@__BuildControl__control72(@__ctrl.Rows);
             return @__ctrl;
         }
         
@@ -2485,78 +2500,92 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
                         ".parent();\r\n\r\n                        var spanTemp = \'<span class=\"errorMsg\">\' +" +
                         " errorMsg + \'</span>\';\r\n\r\n                        $(tempControl).append(spanTemp" +
                         ");\r\n                        tempControl.focus();\r\n                    }\r\n       " +
-                        "         }\r\n                catch (ex) {\r\n                }\r\n            }\r\n    " +
-                        "    }\r\n\r\n        if (isSavedAsDraft == false) {\r\n            if (errorFlag == tr" +
-                        "ue) {\r\n                message += \"**** Please Provide value for the required fi" +
-                        "elds ****\";\r\n            }\r\n        }\r\n\r\n        if (errorFlag == false) {\r\n\r\n  " +
-                        "          if (!isActionConfirmed(action)) {\r\n                return false;\r\n    " +
-                        "        }\r\n\r\n            var recommendationList = \'\';\r\n            $(\"[id$=recom" +
-                        "mendationDetails_table] tr.recommendationItem\").each(function () {\r\n            " +
-                        "    $this = $(this)\r\n                var recommendationId = $this.find(\"span.rec" +
-                        "ommendationId\").html();\r\n                var recommendationNo = $this.find(\"span" +
-                        ".recommendationNo\").html();\r\n                var description = $this.find(\"span." +
-                        "description\").html();\r\n                var username = $this.find(\"span.username\"" +
-                        ").html();\r\n                var email = $this.find(\"span.email\").html();\r\n       " +
-                        "         var sectionId = $this.find(\"span.sectionId\").html();\r\n                v" +
-                        "ar sectionName = $this.find(\"span.sectionName\").html();\r\n                var dep" +
-                        "artmentId = $this.find(\"span.departmentId\").html();\r\n                var departm" +
-                        "entName = $this.find(\"span.departmentName\").html();\r\n                var targetD" +
-                        "ate = $this.find(\"span.targetDate\").html();\r\n                var observationSpot" +
-                        " = $this.find(\"span.concurrenceOfRP\").html();\r\n                var status = $thi" +
-                        "s.find(\"span.status\").html();\r\n\r\n                if (typeof recommendationId == " +
-                        "\'undefined\') {\r\n                    recommendationId = 0;\r\n                }\r\n  " +
-                        "              if (typeof recommendationNo == \'undefined\') {\r\n                   " +
-                        " recommendationNo = \"\";\r\n                }\r\n                if (typeof descripti" +
-                        "on == \'undefined\') {\r\n                    description = \"\";\r\n                }\r\n" +
-                        "                if (typeof username == \'undefined\') {\r\n                    usern" +
-                        "ame = \"\";\r\n                }\r\n                if (typeof email == \'undefined\') {" +
-                        "\r\n                    email = \"\";\r\n                }\r\n                if (typeof" +
-                        " sectionId == \'undefined\') {\r\n                    sectionId = \'0\';\r\n            " +
-                        "    }\r\n                if (typeof sectionName == \'undefined\') {\r\n               " +
-                        "     sectionName = \"\";\r\n                }\r\n\r\n                if (typeof departme" +
-                        "ntId == \'undefined\') {\r\n                    departmentId = \'0\';\r\n               " +
-                        " }\r\n                if (typeof departmentName == \'undefined\') {\r\n               " +
-                        "     departmentName = \"\";\r\n                }\r\n                if (typeof targetD" +
-                        "ate == \'undefined\') {\r\n                    targetDate = \"\";\r\n                }\r\n" +
-                        "                if (typeof concurrenceOfRP == \'undefined\') {\r\n                  " +
-                        "  concurrenceOfRP = \"no\";\r\n                }\r\n                if (typeof status " +
-                        "== \'undefined\') {\r\n                    status = \"\";\r\n                }\r\n\r\n      " +
-                        "          recommendationList = recommendationList +\r\n                    recomme" +
-                        "ndationId + \"*|*\" +\r\n                    description + \"*|*\" +\r\n                " +
-                        "    username + \"*|*\" +\r\n                    email + \"*|*\" +\r\n                   " +
-                        " sectionId + \"*|*\" +\r\n                    sectionName + \"*|*\" +\r\n               " +
-                        "     departmentId + \"*|*\" +\r\n                    departmentName + \"*|*\" +\r\n     " +
-                        "               targetDate + \"*|*\" +\r\n                    concurrenceOfRP + \"*|*\"" +
-                        " +\r\n                    status + \"*|*\" +\r\n                    recommendationNo +" +
-                        " \"*|*\" +\r\n                    isSavedAsDraft + \"~|~\";\r\n            });\r\n\r\n      " +
-                        "      $(\"[id$=hdnRecommendationList]\").val(recommendationList);\r\n\r\n            v" +
-                        "ar keyFindingsList = \'\';\r\n            $(\"[id$=keyFindings_table] tr.keyFindingsI" +
-                        "tem\").each(function () {\r\n                $this = $(this)\r\n                var k" +
-                        "eyFindings = $this.find(\"span.keyFindingsDescription\").html();\r\n\r\n              " +
-                        "  keyFindingsList = keyFindingsList + keyFindings + \"~|~\";\r\n            });\r\n\r\n " +
-                        "           $(\"[id$=hdnKeyFindingsList]\").val(keyFindingsList);\r\n\r\n\r\n            " +
-                        "var peopleInterviewedList = \'\';\r\n            $(\"[id$=peopleInterviewed_table] tr" +
-                        ".peopleInterviewedItem\").each(function () {\r\n                $this = $(this)\r\n  " +
-                        "              var peopleInterviewed = $this.find(\"span.peopleInterviewedDescript" +
-                        "ion\").html();\r\n\r\n                peopleInterviewedList = peopleInterviewedList +" +
-                        " peopleInterviewed + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnPeopleInt" +
-                        "erviewedList]\").val(peopleInterviewedList);\r\n\r\n            var rootCausesList = " +
-                        "\'\';\r\n            $(\"[id$=rootCauses_table] tr.rootCausesItem\").each(function () " +
-                        "{\r\n                $this = $(this)\r\n                var rootCauses = $this.find(" +
-                        "\"span.rootCausesDescription\").html();\r\n\r\n                rootCausesList = rootCa" +
-                        "usesList + rootCauses + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnRootCa" +
-                        "usesList]\").val(rootCausesList);\r\n\r\n\r\n\r\n\r\n            return true;\r\n        }\r\n " +
-                        "       else {\r\n            ValidationSummary(message, controlList);\r\n           " +
-                        " return false;\r\n        }\r\n    }\r\n</script>\r\n\r\n<link href=\"/_layouts/15/SL.FG.FF" +
-                        "L/CSS/FGStyle.css\" rel=\"stylesheet\" />\r\n\r\n<style type=\"text/css\">\r\n    .editReco" +
-                        "mmendation {\r\n        display: none !important;\r\n    }\r\n\r\n    .editKeyFindings {" +
-                        "\r\n        display: none !important;\r\n    }\r\n\r\n    .editPeopleInterviewed {\r\n    " +
-                        "    display: none !important;\r\n    }\r\n\r\n    .editRootCauses {\r\n        display: " +
-                        "none !important;\r\n    }\r\n\r\n    [id$=responsiblePerson_PeopleEditor_TopSpan] {\r\n " +
-                        "       border-radius: 5px !important;\r\n        width: 100%;\r\n    }\r\n\r\n    .panel" +
-                        "-title:hover {\r\n        cursor: pointer;\r\n    }\r\n</style>\r\n\r\n\r\n<div class=\"conta" +
-                        "iner containerMaxWidth\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg-12\">" +
-                        "\r\n            "));
+                        "         }\r\n                catch (ex) {\r\n                }\r\n            }\r\n\r\n  " +
+                        "          errorMsg = \'Please enter atleast one\';\r\n\r\n            var countKeyFind" +
+                        "ings = $(\'[id$=noOfKeyFindings_span]\').text();\r\n            var countPeopleInter" +
+                        "vieweds = $(\'[id$=noOfPeopleInterviewed_span]\').text();\r\n            var countRo" +
+                        "otCauses = $(\'[id$=noOfRootCauses_span]\').text();\r\n\r\n            if (countKeyFin" +
+                        "dings == \"0\") {\r\n                errorFlag = true;\r\n\r\n                var tempCo" +
+                        "ntrol = $(\'[id$=keyFindings_tf]\').parent().parent().parent();\r\n\r\n               " +
+                        " var spanTemp = \'<span class=\"errorMsg\">\' + errorMsg + \'</span>\';\r\n\r\n           " +
+                        "     $(tempControl).append(spanTemp);\r\n            }\r\n\r\n            if (countPeo" +
+                        "pleIntervieweds == \"0\") {\r\n                errorFlag = true;\r\n\r\n                " +
+                        "var tempControl = $(\'[id$=peopleInterviewed_tf]\').parent().parent().parent();\r\n\r" +
+                        "\n                var spanTemp = \'<span class=\"errorMsg\">\' + errorMsg + \'</span>\'" +
+                        ";\r\n\r\n                $(tempControl).append(spanTemp);\r\n            }\r\n\r\n        " +
+                        "    if (countRootCauses == \"0\") {\r\n                errorFlag = true;\r\n\r\n        " +
+                        "        var tempControl = $(\'[id$=rootCauses_tf]\').parent().parent().parent();\r\n" +
+                        "\r\n                var spanTemp = \'<span class=\"errorMsg\">\' + errorMsg + \'</span>" +
+                        "\';\r\n\r\n                $(tempControl).append(spanTemp);\r\n            }\r\n        }" +
+                        "\r\n\r\n        if (errorFlag == false) {\r\n\r\n            if (!isActionConfirmed(acti" +
+                        "on)) {\r\n                return false;\r\n            }\r\n\r\n            var recommen" +
+                        "dationList = \'\';\r\n            $(\"[id$=recommendationDetails_table] tr.recommenda" +
+                        "tionItem\").each(function () {\r\n                $this = $(this)\r\n                " +
+                        "var recommendationId = $this.find(\"span.recommendationId\").html();\r\n            " +
+                        "    var recommendationNo = $this.find(\"span.recommendationNo\").html();\r\n        " +
+                        "        var description = $this.find(\"span.description\").html();\r\n              " +
+                        "  var username = $this.find(\"span.username\").html();\r\n                var email " +
+                        "= $this.find(\"span.email\").html();\r\n                var sectionId = $this.find(\"" +
+                        "span.sectionId\").html();\r\n                var sectionName = $this.find(\"span.sec" +
+                        "tionName\").html();\r\n                var departmentId = $this.find(\"span.departme" +
+                        "ntId\").html();\r\n                var departmentName = $this.find(\"span.department" +
+                        "Name\").html();\r\n                var targetDate = $this.find(\"span.targetDate\").h" +
+                        "tml();\r\n                var observationSpot = $this.find(\"span.concurrenceOfRP\")" +
+                        ".html();\r\n                var status = $this.find(\"span.status\").html();\r\n\r\n    " +
+                        "            if (typeof recommendationId == \'undefined\') {\r\n                    r" +
+                        "ecommendationId = 0;\r\n                }\r\n                if (typeof recommendati" +
+                        "onNo == \'undefined\') {\r\n                    recommendationNo = \"\";\r\n            " +
+                        "    }\r\n                if (typeof description == \'undefined\') {\r\n               " +
+                        "     description = \"\";\r\n                }\r\n                if (typeof username =" +
+                        "= \'undefined\') {\r\n                    username = \"\";\r\n                }\r\n       " +
+                        "         if (typeof email == \'undefined\') {\r\n                    email = \"\";\r\n  " +
+                        "              }\r\n                if (typeof sectionId == \'undefined\') {\r\n       " +
+                        "             sectionId = \'0\';\r\n                }\r\n                if (typeof sec" +
+                        "tionName == \'undefined\') {\r\n                    sectionName = \"\";\r\n             " +
+                        "   }\r\n\r\n                if (typeof departmentId == \'undefined\') {\r\n             " +
+                        "       departmentId = \'0\';\r\n                }\r\n                if (typeof depart" +
+                        "mentName == \'undefined\') {\r\n                    departmentName = \"\";\r\n          " +
+                        "      }\r\n                if (typeof targetDate == \'undefined\') {\r\n              " +
+                        "      targetDate = \"\";\r\n                }\r\n                if (typeof concurrenc" +
+                        "eOfRP == \'undefined\') {\r\n                    concurrenceOfRP = \"no\";\r\n          " +
+                        "      }\r\n                if (typeof status == \'undefined\') {\r\n                  " +
+                        "  status = \"\";\r\n                }\r\n\r\n                recommendationList = recomm" +
+                        "endationList +\r\n                    recommendationId + \"*|*\" +\r\n                " +
+                        "    description + \"*|*\" +\r\n                    username + \"*|*\" +\r\n             " +
+                        "       email + \"*|*\" +\r\n                    sectionId + \"*|*\" +\r\n               " +
+                        "     sectionName + \"*|*\" +\r\n                    departmentId + \"*|*\" +\r\n        " +
+                        "            departmentName + \"*|*\" +\r\n                    targetDate + \"*|*\" +\r\n" +
+                        "                    concurrenceOfRP + \"*|*\" +\r\n                    status + \"*|*" +
+                        "\" +\r\n                    recommendationNo + \"*|*\" +\r\n                    isSaved" +
+                        "AsDraft + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnRecommendationList]\"" +
+                        ").val(recommendationList);\r\n\r\n            var keyFindingsList = \'\';\r\n           " +
+                        " $(\"[id$=keyFindings_table] tr.keyFindingsItem\").each(function () {\r\n           " +
+                        "     $this = $(this)\r\n                var keyFindings = $this.find(\"span.keyFind" +
+                        "ingsDescription\").html();\r\n\r\n                keyFindingsList = keyFindingsList +" +
+                        " keyFindings + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnKeyFindingsList" +
+                        "]\").val(keyFindingsList);\r\n\r\n\r\n            var peopleInterviewedList = \'\';\r\n    " +
+                        "        $(\"[id$=peopleInterviewed_table] tr.peopleInterviewedItem\").each(functio" +
+                        "n () {\r\n                $this = $(this)\r\n                var peopleInterviewed =" +
+                        " $this.find(\"span.peopleInterviewedDescription\").html();\r\n\r\n                peop" +
+                        "leInterviewedList = peopleInterviewedList + peopleInterviewed + \"~|~\";\r\n        " +
+                        "    });\r\n\r\n            $(\"[id$=hdnPeopleInterviewedList]\").val(peopleInterviewed" +
+                        "List);\r\n\r\n            var rootCausesList = \'\';\r\n            $(\"[id$=rootCauses_t" +
+                        "able] tr.rootCausesItem\").each(function () {\r\n                $this = $(this)\r\n " +
+                        "               var rootCauses = $this.find(\"span.rootCausesDescription\").html();" +
+                        "\r\n\r\n                rootCausesList = rootCausesList + rootCauses + \"~|~\";\r\n     " +
+                        "       });\r\n\r\n            $(\"[id$=hdnRootCausesList]\").val(rootCausesList);\r\n\r\n\r" +
+                        "\n\r\n\r\n            return true;\r\n        }\r\n        else {\r\n            //Validati" +
+                        "onSummary(message, controlList);\r\n            alert(\"Validation incomplete: Plea" +
+                        "se verify the data.\");\r\n            return false;\r\n        }\r\n    }\r\n</script>\r\n" +
+                        "\r\n<link href=\"/_layouts/15/SL.FG.FFL/CSS/FGStyle.css\" rel=\"stylesheet\" />\r\n\r\n<st" +
+                        "yle type=\"text/css\">\r\n    .editRecommendation {\r\n        display: none !importan" +
+                        "t;\r\n    }\r\n\r\n    .editKeyFindings {\r\n        display: none !important;\r\n    }\r\n\r" +
+                        "\n    .editPeopleInterviewed {\r\n        display: none !important;\r\n    }\r\n\r\n    ." +
+                        "editRootCauses {\r\n        display: none !important;\r\n    }\r\n\r\n    [id$=responsib" +
+                        "lePerson_PeopleEditor_TopSpan] {\r\n        border-radius: 5px !important;\r\n      " +
+                        "  width: 100%;\r\n    }\r\n\r\n    .panel-title:hover {\r\n        cursor: pointer;\r\n   " +
+                        " }\r\n</style>\r\n\r\n\r\n<div class=\"container containerMaxWidth\">\r\n    <div class=\"row" +
+                        "\">\r\n        <div class=\"col-lg-12\">\r\n            "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
             @__ctrl1 = this.@__BuildControlmessage_div();
             @__parser.AddParsedSubObject(@__ctrl1);
@@ -2809,6 +2838,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
                                 <div class=""panel panel-success"">
                                     <div class=""panel-body"">
                                         <div class=""form-group"">
+                                            <label>Sequence of Events</label>
                                             <div class=""form-group"">
                                                 <div class='input-group'>
                                                     "));
@@ -2842,6 +2872,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
                                     <div class=""panel-body"">
                                         <div class=""form-group"">
                                             <div class=""form-group"">
+                                                 <label>Key Findings</label>
                                                 <div class='input-group'>
                                                     "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl27;
@@ -2874,6 +2905,7 @@ namespace SL.FG.FFL.WebParts.IR03DIForm {
                                     <div class=""panel-body"">
                                         <div class=""form-group"">
                                             <div class=""form-group"">
+                                                <label>Investigations/Interviews</label>
                                                 <div class='input-group'>
                                                     "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl30;

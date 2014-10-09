@@ -637,9 +637,9 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-inline col-lg-6");
             @__ctrl.ID = "detailedReportYes_div";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                <label>Yes</label>\r\n           " +
-                        "                                     <input type=\"radio\" id=\"detailedReportYes_r" +
-                        "b\" value=\"Yes\" disabled checked>\r\n                                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <label>Yes</label>\r\n               " +
+                        "                             <input type=\"radio\" id=\"detailedReportYes_rb\" value" +
+                        "=\"Yes\" disabled checked>\r\n                                        "));
             return @__ctrl;
         }
         
@@ -653,9 +653,9 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-inline col-lg-6");
             @__ctrl.ID = "detailedReportNo_div";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                <label>No</label>\r\n            " +
-                        "                                    <input type=\"radio\" id=\"detailedReportNo_rb\"" +
-                        " value=\"No\" disabled checked>\r\n                                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <label>No</label>\r\n                " +
+                        "                            <input type=\"radio\" id=\"detailedReportNo_rb\" value=\"" +
+                        "No\" disabled checked>\r\n                                        "));
             return @__ctrl;
         }
         
@@ -669,10 +669,9 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-inline col-lg-6");
             @__ctrl.ID = "investigationTeamYes_div";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                <label>Yes</label>\r\n           " +
-                        "                                     <input type=\"radio\" id=\"investigationTeamYe" +
-                        "s_rb\" value=\"Yes\" disabled checked>\r\n                                           " +
-                        " "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <label>Yes</label>\r\n               " +
+                        "                             <input type=\"radio\" id=\"investigationTeamYes_rb\" va" +
+                        "lue=\"Yes\" disabled checked>\r\n                                        "));
             return @__ctrl;
         }
         
@@ -686,9 +685,9 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-inline col-lg-6");
             @__ctrl.ID = "investigationTeamNo_div";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                <label>No</label>\r\n            " +
-                        "                                    <input type=\"radio\" id=\"investigationTeamNo_" +
-                        "rb\" value=\"No\" disabled checked>\r\n                                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <label>No</label>\r\n                " +
+                        "                            <input type=\"radio\" id=\"investigationTeamNo_rb\" valu" +
+                        "e=\"No\" disabled checked>\r\n                                        "));
             return @__ctrl;
         }
         
@@ -702,7 +701,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "keyFindings_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter Key Findings...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -807,7 +806,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "peopleInterviewed_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter People Interviewed...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -912,7 +911,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("type", "text");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "rootCauses_tf";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter Root Causes...");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("placeholder", "Please Enter...");
             return @__ctrl;
         }
         
@@ -1039,6 +1038,17 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control27() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Value = "0";
+            @__ctrl.Text = "Please Select";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         private global::System.Web.UI.HtmlControls.HtmlSelect @__BuildControlresponsibleSection_ddl() {
             global::System.Web.UI.HtmlControls.HtmlSelect @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlSelect();
@@ -1046,6 +1056,10 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             @__ctrl.Name = "responsibleSection_ddl";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "form-control");
             @__ctrl.ID = "responsibleSection_ddl";
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control27();
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(@__ctrl1);
             return @__ctrl;
         }
         
@@ -1068,7 +1082,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control30() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control31() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1079,7 +1093,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control31() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control32() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1090,7 +1104,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control32() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control33() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1101,7 +1115,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control33() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control34() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1112,7 +1126,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control34() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control35() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1123,7 +1137,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control35() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control36() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1134,7 +1148,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control36() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control37() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1145,7 +1159,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control37() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control38() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1156,7 +1170,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control38() {
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control39() {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("th");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
@@ -1167,52 +1181,52 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control29(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
+        private void @__BuildControl__control30(System.Web.UI.HtmlControls.HtmlTableCellCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control30();
+            @__ctrl1 = this.@__BuildControl__control31();
             @__ctrl.Add(@__ctrl1);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control31();
+            @__ctrl2 = this.@__BuildControl__control32();
             @__ctrl.Add(@__ctrl2);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control32();
+            @__ctrl3 = this.@__BuildControl__control33();
             @__ctrl.Add(@__ctrl3);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl4;
-            @__ctrl4 = this.@__BuildControl__control33();
+            @__ctrl4 = this.@__BuildControl__control34();
             @__ctrl.Add(@__ctrl4);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl5;
-            @__ctrl5 = this.@__BuildControl__control34();
+            @__ctrl5 = this.@__BuildControl__control35();
             @__ctrl.Add(@__ctrl5);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl6;
-            @__ctrl6 = this.@__BuildControl__control35();
+            @__ctrl6 = this.@__BuildControl__control36();
             @__ctrl.Add(@__ctrl6);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl7;
-            @__ctrl7 = this.@__BuildControl__control36();
+            @__ctrl7 = this.@__BuildControl__control37();
             @__ctrl.Add(@__ctrl7);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl8;
-            @__ctrl8 = this.@__BuildControl__control37();
+            @__ctrl8 = this.@__BuildControl__control38();
             @__ctrl.Add(@__ctrl8);
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl9;
-            @__ctrl9 = this.@__BuildControl__control38();
+            @__ctrl9 = this.@__BuildControl__control39();
             @__ctrl.Add(@__ctrl9);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control28() {
+        private global::System.Web.UI.HtmlControls.HtmlTableRow @__BuildControl__control29() {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableRow();
-            this.@__BuildControl__control29(@__ctrl.Cells);
+            this.@__BuildControl__control30(@__ctrl.Cells);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
-        private void @__BuildControl__control27(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
+        private void @__BuildControl__control28(System.Web.UI.HtmlControls.HtmlTableRowCollection @__ctrl) {
             global::System.Web.UI.HtmlControls.HtmlTableRow @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control28();
+            @__ctrl1 = this.@__BuildControl__control29();
             @__ctrl.Add(@__ctrl1);
         }
         
@@ -1225,7 +1239,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             this.recommendationDetails_table = @__ctrl;
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "table");
             @__ctrl.ID = "recommendationDetails_table";
-            this.@__BuildControl__control27(@__ctrl.Rows);
+            this.@__BuildControl__control28(@__ctrl.Rows);
             return @__ctrl;
         }
         
@@ -1634,9 +1648,9 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             this.FRTagetDate_div = @__ctrl;
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "col-lg-6");
             @__ctrl.ID = "FRTagetDate_div";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("style", "display:none;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("style", "display: none;");
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                "));
             global::Microsoft.SharePoint.WebControls.DateTimeControl @__ctrl1;
             @__ctrl1 = this.@__BuildControlFRTargetDate_dtc();
             @__parser.AddParsedSubObject(@__ctrl1);
@@ -1806,76 +1820,93 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
                         "     }\r\n        }\r\n        catch (ex) {\r\n        }\r\n        return null;\r\n    }\r" +
                         "\n\r\n    function SaveIRDIDetails(isSavedAsDraft, action) {\r\n        var errorFlag" +
                         " = false;\r\n        var controlList = \'\';\r\n\r\n        var message = \'\';\r\n\r\n       " +
-                        " if (isSavedAsDraft == false) {\r\n            if (errorFlag == true) {\r\n         " +
-                        "       message += \"**** Please Provide value for the required fields ****\";\r\n   " +
-                        "         }\r\n\r\n        }\r\n\r\n        if (errorFlag == false) {\r\n\r\n            if (" +
-                        "!isActionConfirmed(action)) {\r\n                return false;\r\n            }\r\n\r\n " +
-                        "           var recommendationList = \'\';\r\n            $(\"[id$=recommendationDetai" +
-                        "ls_table] tr.recommendationItem\").each(function () {\r\n                $this = $(" +
-                        "this)\r\n                var recommendationId = $this.find(\"span.recommendationId\"" +
-                        ").html();\r\n                var recommendationNo = $this.find(\"span.recommendatio" +
-                        "nNo\").html();\r\n                var description = $this.find(\"span.description\")." +
-                        "html();\r\n                var username = $this.find(\"span.username\").html();\r\n   " +
-                        "             var email = $this.find(\"span.email\").html();\r\n                var s" +
-                        "ectionId = $this.find(\"span.sectionId\").html();\r\n                var sectionName" +
-                        " = $this.find(\"span.sectionName\").html();\r\n                var departmentId = $t" +
-                        "his.find(\"span.departmentId\").html();\r\n                var departmentName = $thi" +
-                        "s.find(\"span.departmentName\").html();\r\n                var targetDate = $this.fi" +
-                        "nd(\"span.targetDate\").html();\r\n                var observationSpot = $this.find(" +
-                        "\"span.concurrenceOfRP\").html();\r\n                var status = $this.find(\"span.s" +
-                        "tatus\").html();\r\n\r\n                if (typeof recommendationId == \'undefined\') {" +
-                        "\r\n                    recommendationId = 0;\r\n                }\r\n                " +
-                        "if (typeof recommendationNo == \'undefined\') {\r\n                    recommendatio" +
-                        "nNo = \"\";\r\n                }\r\n                if (typeof description == \'undefin" +
-                        "ed\') {\r\n                    description = \"\";\r\n                }\r\n              " +
-                        "  if (typeof username == \'undefined\') {\r\n                    username = \"\";\r\n   " +
-                        "             }\r\n                if (typeof email == \'undefined\') {\r\n            " +
-                        "        email = \"\";\r\n                }\r\n                if (typeof sectionId == " +
-                        "\'undefined\') {\r\n                    sectionId = \'0\';\r\n                }\r\n       " +
-                        "         if (typeof sectionName == \'undefined\') {\r\n                    sectionNa" +
-                        "me = \"\";\r\n                }\r\n\r\n                if (typeof departmentId == \'undef" +
-                        "ined\') {\r\n                    departmentId = \'0\';\r\n                }\r\n          " +
-                        "      if (typeof departmentName == \'undefined\') {\r\n                    departmen" +
-                        "tName = \"\";\r\n                }\r\n                if (typeof targetDate == \'undefi" +
-                        "ned\') {\r\n                    targetDate = \"\";\r\n                }\r\n              " +
-                        "  if (typeof concurrenceOfRP == \'undefined\') {\r\n                    concurrenceO" +
-                        "fRP = \"no\";\r\n                }\r\n                if (typeof status == \'undefined\'" +
-                        ") {\r\n                    status = \"\";\r\n                }\r\n\r\n                reco" +
-                        "mmendationList = recommendationList +\r\n                    recommendationId + \"*" +
-                        "|*\" +\r\n                    description + \"*|*\" +\r\n                    username +" +
-                        " \"*|*\" +\r\n                    email + \"*|*\" +\r\n                    sectionId + \"" +
-                        "*|*\" +\r\n                    sectionName + \"*|*\" +\r\n                    departmen" +
-                        "tId + \"*|*\" +\r\n                    departmentName + \"*|*\" +\r\n                   " +
-                        " targetDate + \"*|*\" +\r\n                    concurrenceOfRP + \"*|*\" +\r\n          " +
-                        "          status + \"*|*\" +\r\n                    recommendationNo + \"*|*\" +\r\n    " +
-                        "                isSavedAsDraft + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=" +
-                        "hdnRecommendationList]\").val(recommendationList);\r\n\r\n            var keyFindings" +
-                        "List = \'\';\r\n            $(\"[id$=keyFindings_table] tr.keyFindingsItem\").each(fun" +
-                        "ction () {\r\n                $this = $(this)\r\n                var keyFindings = $" +
-                        "this.find(\"span.keyFindingsDescription\").html();\r\n\r\n                keyFindingsL" +
-                        "ist = keyFindingsList + keyFindings + \"~|~\";\r\n            });\r\n\r\n            $(\"" +
-                        "[id$=hdnKeyFindingsList]\").val(keyFindingsList);\r\n\r\n\r\n            var peopleInte" +
-                        "rviewedList = \'\';\r\n            $(\"[id$=peopleInterviewed_table] tr.peopleIntervi" +
-                        "ewedItem\").each(function () {\r\n                $this = $(this)\r\n                " +
-                        "var peopleInterviewed = $this.find(\"span.peopleInterviewedDescription\").html();\r" +
-                        "\n\r\n                peopleInterviewedList = peopleInterviewedList + peopleIntervi" +
-                        "ewed + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnPeopleInterviewedList]\"" +
-                        ").val(peopleInterviewedList);\r\n\r\n            var rootCausesList = \'\';\r\n         " +
-                        "   $(\"[id$=rootCauses_table] tr.rootCausesItem\").each(function () {\r\n           " +
-                        "     $this = $(this)\r\n                var rootCauses = $this.find(\"span.rootCaus" +
-                        "esDescription\").html();\r\n\r\n                rootCausesList = rootCausesList + roo" +
-                        "tCauses + \"~|~\";\r\n            });\r\n\r\n            $(\"[id$=hdnRootCausesList]\").va" +
-                        "l(rootCausesList);\r\n\r\n            return true;\r\n        }\r\n        else {\r\n     " +
-                        "       ValidationSummary(message, controlList);\r\n            return false;\r\n    " +
-                        "    }\r\n    }\r\n\r\n</script>\r\n\r\n<link href=\"/_layouts/15/SL.FG.FFL/CSS/FGStyle.css\"" +
-                        " rel=\"stylesheet\" />\r\n\r\n<style type=\"text/css\">\r\n    .editRecommendation {\r\n    " +
-                        "    display: none !important;\r\n    }\r\n\r\n    .editKeyFindings {\r\n        display:" +
-                        " none !important;\r\n    }\r\n\r\n    .editPeopleInterviewed {\r\n        display: none " +
-                        "!important;\r\n    }\r\n\r\n    .editRootCauses {\r\n        display: none !important;\r\n" +
-                        "    }\r\n\r\n    [id$=responsiblePerson_PeopleEditor_TopSpan] {\r\n        border-radi" +
-                        "us: 5px !important;\r\n        width: 100%;\r\n    }\r\n\r\n    .panel-title:hover {\r\n  " +
-                        "      cursor: pointer;\r\n    }\r\n</style>\r\n\r\n\r\n<div class=\"container containerMaxW" +
-                        "idth\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg-12\">\r\n            "));
+                        " if ($(\'.errorMsg\').length > 0) {\r\n            $(\'.errorMsg\').remove();\r\n       " +
+                        " }\r\n\r\n        if (action != \"SaveAsDraft\") {\r\n\r\n            var errorMsg = \'Plea" +
+                        "se enter atleast one\';\r\n\r\n            var countKeyFindings = $(\'[id$=noOfKeyFind" +
+                        "ings_span]\').text();\r\n            var countPeopleIntervieweds = $(\'[id$=noOfPeop" +
+                        "leInterviewed_span]\').text();\r\n            var countRootCauses = $(\'[id$=noOfRoo" +
+                        "tCauses_span]\').text();\r\n\r\n            if (countKeyFindings == \"0\") {\r\n         " +
+                        "       errorFlag = true;\r\n\r\n                var tempControl = $(\'[id$=keyFinding" +
+                        "s_tf]\').parent().parent().parent();\r\n\r\n                var spanTemp = \'<span cla" +
+                        "ss=\"errorMsg\">\' + errorMsg + \'</span>\';\r\n\r\n                $(tempControl).append" +
+                        "(spanTemp);\r\n            }\r\n\r\n            if (countPeopleIntervieweds == \"0\") {\r" +
+                        "\n                errorFlag = true;\r\n\r\n                var tempControl = $(\'[id$=" +
+                        "peopleInterviewed_tf]\').parent().parent().parent();\r\n\r\n                var spanT" +
+                        "emp = \'<span class=\"errorMsg\">\' + errorMsg + \'</span>\';\r\n\r\n                $(tem" +
+                        "pControl).append(spanTemp);\r\n            }\r\n\r\n            if (countRootCauses ==" +
+                        " \"0\") {\r\n                errorFlag = true;\r\n\r\n                var tempControl = " +
+                        "$(\'[id$=rootCauses_tf]\').parent().parent().parent();\r\n\r\n                var span" +
+                        "Temp = \'<span class=\"errorMsg\">\' + errorMsg + \'</span>\';\r\n\r\n                $(te" +
+                        "mpControl).append(spanTemp);\r\n            }\r\n        }\r\n\r\n        if (errorFlag " +
+                        "== false) {\r\n\r\n            if (!isActionConfirmed(action)) {\r\n                re" +
+                        "turn false;\r\n            }\r\n\r\n            var recommendationList = \'\';\r\n        " +
+                        "    $(\"[id$=recommendationDetails_table] tr.recommendationItem\").each(function (" +
+                        ") {\r\n                $this = $(this)\r\n                var recommendationId = $th" +
+                        "is.find(\"span.recommendationId\").html();\r\n                var recommendationNo =" +
+                        " $this.find(\"span.recommendationNo\").html();\r\n                var description = " +
+                        "$this.find(\"span.description\").html();\r\n                var username = $this.fin" +
+                        "d(\"span.username\").html();\r\n                var email = $this.find(\"span.email\")" +
+                        ".html();\r\n                var sectionId = $this.find(\"span.sectionId\").html();\r\n" +
+                        "                var sectionName = $this.find(\"span.sectionName\").html();\r\n      " +
+                        "          var departmentId = $this.find(\"span.departmentId\").html();\r\n          " +
+                        "      var departmentName = $this.find(\"span.departmentName\").html();\r\n          " +
+                        "      var targetDate = $this.find(\"span.targetDate\").html();\r\n                va" +
+                        "r observationSpot = $this.find(\"span.concurrenceOfRP\").html();\r\n                " +
+                        "var status = $this.find(\"span.status\").html();\r\n\r\n                if (typeof rec" +
+                        "ommendationId == \'undefined\') {\r\n                    recommendationId = 0;\r\n    " +
+                        "            }\r\n                if (typeof recommendationNo == \'undefined\') {\r\n  " +
+                        "                  recommendationNo = \"\";\r\n                }\r\n                if " +
+                        "(typeof description == \'undefined\') {\r\n                    description = \"\";\r\n  " +
+                        "              }\r\n                if (typeof username == \'undefined\') {\r\n        " +
+                        "            username = \"\";\r\n                }\r\n                if (typeof email " +
+                        "== \'undefined\') {\r\n                    email = \"\";\r\n                }\r\n         " +
+                        "       if (typeof sectionId == \'undefined\') {\r\n                    sectionId = \'" +
+                        "0\';\r\n                }\r\n                if (typeof sectionName == \'undefined\') {" +
+                        "\r\n                    sectionName = \"\";\r\n                }\r\n\r\n                if" +
+                        " (typeof departmentId == \'undefined\') {\r\n                    departmentId = \'0\';" +
+                        "\r\n                }\r\n                if (typeof departmentName == \'undefined\') {" +
+                        "\r\n                    departmentName = \"\";\r\n                }\r\n                i" +
+                        "f (typeof targetDate == \'undefined\') {\r\n                    targetDate = \"\";\r\n  " +
+                        "              }\r\n                if (typeof concurrenceOfRP == \'undefined\') {\r\n " +
+                        "                   concurrenceOfRP = \"no\";\r\n                }\r\n                i" +
+                        "f (typeof status == \'undefined\') {\r\n                    status = \"\";\r\n          " +
+                        "      }\r\n\r\n                recommendationList = recommendationList +\r\n          " +
+                        "          recommendationId + \"*|*\" +\r\n                    description + \"*|*\" +\r" +
+                        "\n                    username + \"*|*\" +\r\n                    email + \"*|*\" +\r\n  " +
+                        "                  sectionId + \"*|*\" +\r\n                    sectionName + \"*|*\" +" +
+                        "\r\n                    departmentId + \"*|*\" +\r\n                    departmentName" +
+                        " + \"*|*\" +\r\n                    targetDate + \"*|*\" +\r\n                    concur" +
+                        "renceOfRP + \"*|*\" +\r\n                    status + \"*|*\" +\r\n                    r" +
+                        "ecommendationNo + \"*|*\" +\r\n                    isSavedAsDraft + \"~|~\";\r\n        " +
+                        "    });\r\n\r\n            $(\"[id$=hdnRecommendationList]\").val(recommendationList);" +
+                        "\r\n\r\n            var keyFindingsList = \'\';\r\n            $(\"[id$=keyFindings_table" +
+                        "] tr.keyFindingsItem\").each(function () {\r\n                $this = $(this)\r\n    " +
+                        "            var keyFindings = $this.find(\"span.keyFindingsDescription\").html();\r" +
+                        "\n\r\n                keyFindingsList = keyFindingsList + keyFindings + \"~|~\";\r\n   " +
+                        "         });\r\n\r\n            $(\"[id$=hdnKeyFindingsList]\").val(keyFindingsList);\r" +
+                        "\n\r\n\r\n            var peopleInterviewedList = \'\';\r\n            $(\"[id$=peopleInte" +
+                        "rviewed_table] tr.peopleInterviewedItem\").each(function () {\r\n                $t" +
+                        "his = $(this)\r\n                var peopleInterviewed = $this.find(\"span.peopleIn" +
+                        "terviewedDescription\").html();\r\n\r\n                peopleInterviewedList = people" +
+                        "InterviewedList + peopleInterviewed + \"~|~\";\r\n            });\r\n\r\n            $(\"" +
+                        "[id$=hdnPeopleInterviewedList]\").val(peopleInterviewedList);\r\n\r\n            var " +
+                        "rootCausesList = \'\';\r\n            $(\"[id$=rootCauses_table] tr.rootCausesItem\")." +
+                        "each(function () {\r\n                $this = $(this)\r\n                var rootCau" +
+                        "ses = $this.find(\"span.rootCausesDescription\").html();\r\n\r\n                rootCa" +
+                        "usesList = rootCausesList + rootCauses + \"~|~\";\r\n            });\r\n\r\n            " +
+                        "$(\"[id$=hdnRootCausesList]\").val(rootCausesList);\r\n\r\n            return true;\r\n " +
+                        "       }\r\n        else {\r\n            //ValidationSummary(message, controlList);" +
+                        "\r\n            alert(\"Validation incomplete: Please verify the data.\");\r\n        " +
+                        "    return false;\r\n        }\r\n    }\r\n\r\n</script>\r\n\r\n<link href=\"/_layouts/15/SL." +
+                        "FG.FFL/CSS/FGStyle.css\" rel=\"stylesheet\" />\r\n\r\n<style type=\"text/css\">\r\n    .edi" +
+                        "tRecommendation {\r\n        display: none !important;\r\n    }\r\n\r\n    .editKeyFindi" +
+                        "ngs {\r\n        display: none !important;\r\n    }\r\n\r\n    .editPeopleInterviewed {\r" +
+                        "\n        display: none !important;\r\n    }\r\n\r\n    .editRootCauses {\r\n        disp" +
+                        "lay: none !important;\r\n    }\r\n\r\n    [id$=responsiblePerson_PeopleEditor_TopSpan]" +
+                        " {\r\n        border-radius: 5px !important;\r\n        width: 100%;\r\n    }\r\n\r\n    ." +
+                        "panel-title:hover {\r\n        cursor: pointer;\r\n    }\r\n</style>\r\n\r\n\r\n<div class=\"" +
+                        "container containerMaxWidth\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg" +
+                        "-12\">\r\n            "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
             @__ctrl1 = this.@__BuildControlmessage_div();
             @__parser.AddParsedSubObject(@__ctrl1);
@@ -1939,133 +1970,122 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
                     </div>
                     <div class=""panel panel-success"">
                         <div class=""panel-heading"">
-                            <div class=""row"">
-                                <div class=""col-lg-9"">
-                                    <h5>Incident Details</h5>
-                                </div>
-                                <div class=""col-lg-3"">
-                                    <span class=""panel-title pull-right""
-                                        data-toggle=""collapse""
-                                        data-target=""#collapse1"">
-                                        <i class='glyphicon glyphicon-sort'></i>
-                                    </span>
-                                </div>
-                            </div>
+                            Incident Details
                         </div>
-                        <div id=""collapse1"" class=""panel-collapse collapse"">
-                            <div class=""panel-body"">
-                                <div class=""form-group"">
-                                    <label>Title</label>
-                                    "));
+                        <div class=""panel-body"">
+                            <div class=""form-group"">
+                                <label>Title</label>
+                                "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl10;
             @__ctrl10 = this.@__BuildControlincidentTitle_tf();
             @__parser.AddParsedSubObject(@__ctrl10);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                </div>
-                                <div class=""form-group row"">
-                                    <div class=""col-lg-6"">
-                                        <label>Date <span style=""color: red"">&nbsp;*</span></label>
-                                        <div class=""form-group"">
-                                            "));
+                            </div>
+                            <div class=""form-group row"">
+                                <div class=""col-lg-6"">
+                                    <label>Date <span style=""color: red"">&nbsp;*</span></label>
+                                    <div class=""form-group"">
+                                        "));
             global::Microsoft.SharePoint.WebControls.DateTimeControl @__ctrl11;
             @__ctrl11 = this.@__BuildControlincidentDate_dtc();
             @__parser.AddParsedSubObject(@__ctrl11);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                        </div>
                                     </div>
-                                    <div class=""col-lg-6"">
-                                        <label>Time<span style=""color: red"">&nbsp;*</span></label>
-                                        <div class=""form-group"">
-                                            "));
+                                </div>
+                                <div class=""col-lg-6"">
+                                    <label>Time<span style=""color: red"">&nbsp;*</span></label>
+                                    <div class=""form-group"">
+                                        "));
             global::Microsoft.SharePoint.WebControls.DateTimeControl @__ctrl12;
             @__ctrl12 = this.@__BuildControlincidentTime_dtc();
             @__parser.AddParsedSubObject(@__ctrl12);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                        </div>
                                     </div>
                                 </div>
-                                <div class=""form-group row"">
-                                    <div class=""col-lg-6"">
-                                        <div class=""form-group"">
-                                            <label>Unit/Area<span style=""color: red"">&nbsp;*</span></label>
-                                            "));
+                            </div>
+                            <div class=""form-group row"">
+                                <div class=""col-lg-6"">
+                                    <div class=""form-group"">
+                                        <label>Unit/Area<span style=""color: red"">&nbsp;*</span></label>
+                                        "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl13;
             @__ctrl13 = this.@__BuildControlincidentUnitArea_ddl();
             @__parser.AddParsedSubObject(@__ctrl13);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                        </div>
                                     </div>
-                                    <div class=""col-lg-6"">
-                                        <div class=""form-group"">
-                                            <label>Incident Score</label>
-                                            "));
+                                </div>
+                                <div class=""col-lg-6"">
+                                    <div class=""form-group"">
+                                        <label>Incident Score</label>
+                                        "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl14;
             @__ctrl14 = this.@__BuildControlincidentScore_tf();
             @__parser.AddParsedSubObject(@__ctrl14);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                        </div>
                                     </div>
                                 </div>
-                                <div class=""form-group"">
-                                    <label>Description</label>
-                                    "));
+                            </div>
+                            <div class=""form-group"">
+                                <label>Description</label>
+                                "));
             global::System.Web.UI.HtmlControls.HtmlTextArea @__ctrl15;
             @__ctrl15 = this.@__BuildControlincidentDescription_ta();
             @__parser.AddParsedSubObject(@__ctrl15);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </div>\r\n                                <div cl" +
-                        "ass=\"form-group\">\r\n                                    <label>Actions Taken</lab" +
-                        "el>\r\n                                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"for" +
+                        "m-group\">\r\n                                <label>Actions Taken</label>\r\n       " +
+                        "                         "));
             global::System.Web.UI.HtmlControls.HtmlTextArea @__ctrl16;
             @__ctrl16 = this.@__BuildControlincidentActionsTaken_ta();
             @__parser.AddParsedSubObject(@__ctrl16);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                </div>
-                                <div class=""form-group row"">
-                                    <div class=""col-lg-6"">
-                                        <label>Is Detailed Report Required on IR-03 Form?</label>
-                                        <div class=""form-group"">
-                                            "));
+                            </div>
+                            <div class=""form-group row"">
+                                <div class=""col-lg-6"">
+                                    <label>Is Detailed Report Required on IR-03 Form?</label>
+                                    <div class=""form-group"">
+                                        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl17;
             @__ctrl17 = this.@__BuildControldetailedReportYes_div();
             @__parser.AddParsedSubObject(@__ctrl17);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl18;
             @__ctrl18 = this.@__BuildControldetailedReportNo_div();
             @__parser.AddParsedSubObject(@__ctrl18);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                                        </div>
                                     </div>
-                                    <div class=""col-lg-6"">
-                                        <label>If so, Is Investigation Team Required?</label>
-                                        <div class=""form-group"">
-                                            "));
+                                </div>
+                                <div class=""col-lg-6"">
+                                    <label>If so, Is Investigation Team Required?</label>
+                                    <div class=""form-group"">
+                                        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl19;
             @__ctrl19 = this.@__BuildControlinvestigationTeamYes_div();
             @__parser.AddParsedSubObject(@__ctrl19);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl20;
             @__ctrl20 = this.@__BuildControlinvestigationTeamNo_div();
             @__parser.AddParsedSubObject(@__ctrl20);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        </div>\r\n                               " +
-                        "     </div>\r\n                                </div>\r\n                           " +
-                        " </div>\r\n                        </div>\r\n                    </div>\r\n           " +
-                        "     </div>\r\n            </div>\r\n\r\n            <div class=\"panel panel-success\">" +
-                        "\r\n                <div class=\"panel-heading\">\r\n                    <div class=\"r" +
-                        "ow\">\r\n                        <div class=\"col-lg-9\">\r\n                          " +
-                        "  <h5>IR-I Detailed Investigation</h5>\r\n                        </div>\r\n        " +
-                        "                <div class=\"col-lg-3\">\r\n                            <span class=" +
-                        "\"panel-title pull-right\"\r\n                                data-toggle=\"collapse\"" +
-                        "\r\n                                data-target=\"#collapse2\">\r\n                   " +
-                        "             <i class=\'glyphicon glyphicon-sort\'></i>\r\n                         " +
-                        "   </span>\r\n                        </div>\r\n                    </div>\r\n        " +
-                        "        </div>\r\n                <div id=\"collapse2\" class=\"panel-collapse collap" +
-                        "se\">\r\n                    <div class=\"panel-body\">\r\n                        <div" +
-                        " class=\"form-group row\">\r\n                            <div class=\"col-lg-12\">\r\n " +
-                        "                               <div class=\"panel panel-success\">\r\n              " +
-                        "                      <div class=\"panel-body\">\r\n                                " +
-                        "        <div class=\"form-group\">\r\n                                            <d" +
-                        "iv class=\"form-group\">\r\n                                                <div cla" +
-                        "ss=\'input-group\'>\r\n                                                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    </div>\r\n                                </d" +
+                        "iv>\r\n                            </div>\r\n                        </div>\r\n       " +
+                        "             </div>\r\n                </div>\r\n            </div>\r\n\r\n            <" +
+                        "div class=\"panel panel-success\">\r\n                <div class=\"panel-heading\">\r\n " +
+                        "                   <div class=\"row\">\r\n                        <div class=\"col-lg" +
+                        "-9\">\r\n                            <h5>IR-I Detailed Investigation</h5>\r\n        " +
+                        "                </div>\r\n                        <div class=\"col-lg-3\">\r\n        " +
+                        "                    <span class=\"panel-title pull-right\"\r\n                      " +
+                        "          data-toggle=\"collapse\"\r\n                                data-target=\"#" +
+                        "collapse2\">\r\n                                <i class=\'glyphicon glyphicon-sort\'" +
+                        "></i>\r\n                            </span>\r\n                        </div>\r\n    " +
+                        "                </div>\r\n                </div>\r\n                <div id=\"collaps" +
+                        "e2\" class=\"panel-collapse collapse\">\r\n                    <div class=\"panel-body" +
+                        "\">\r\n                        <div class=\"form-group row\">\r\n                      " +
+                        "      <div class=\"col-lg-12\">\r\n                                <div class=\"panel" +
+                        " panel-success\">\r\n                                    <div class=\"panel-body\">\r\n" +
+                        "                                        <div class=\"form-group\">\r\n              " +
+                        "                              <label>Key Findings</label>\r\n                     " +
+                        "                       <div class=\"form-group\">\r\n                               " +
+                        "                 <div class=\'input-group\'>\r\n                                    " +
+                        "                "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl21;
             @__ctrl21 = this.@__BuildControlkeyFindings_tf();
             @__parser.AddParsedSubObject(@__ctrl21);
@@ -2095,6 +2115,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
                                 <div class=""panel panel-success"">
                                     <div class=""panel-body"">
                                         <div class=""form-group"">
+                                            <label>People Interviewed</label>
                                             <div class=""form-group"">
                                                 <div class='input-group'>
                                                     "));
@@ -2128,6 +2149,7 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
                                     <div class=""panel-body"">
                                         <div class=""form-group"">
                                             <div class=""form-group"">
+                                                <label>Root Causes</label>
                                                 <div class='input-group'>
                                                     "));
             global::System.Web.UI.HtmlControls.HtmlInputText @__ctrl27;
@@ -2356,8 +2378,8 @@ namespace SL.FG.FFL.WebParts.IR01DIForm {
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl53;
             @__ctrl53 = this.@__BuildControlFRTagetDate_div();
             @__parser.AddParsedSubObject(@__ctrl53);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            \r\n\r\n            <br />\r\n            <br />\r\n            <div class=" +
-                        "\"form-group pull-right\">\r\n                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n\r\n            <br />\r\n            <br />\r\n            <div class=\"form-group " +
+                        "pull-right\">\r\n                "));
             global::System.Web.UI.WebControls.Button @__ctrl54;
             @__ctrl54 = this.@__BuildControlbtnSaveAsDraft();
             @__parser.AddParsedSubObject(@__ctrl54);

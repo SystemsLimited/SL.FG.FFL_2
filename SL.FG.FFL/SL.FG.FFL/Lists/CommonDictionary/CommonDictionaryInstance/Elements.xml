@@ -3,7 +3,41 @@
   <ListInstance Title="CommonDictionary" OnQuickLaunch="FALSE" TemplateType="10006" Url="Lists/CommonDictionary" Description="My List Instance">
     <Data>
       <Rows>
-        <!--To Be Sync-->
+        <!--Application Data-->
+        <!--FFL-->
+        <Row>
+          <Field Name="Title">SMTP</Field>
+          <Field Name="Value">192.168.100.9</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSE_Approvers</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MasterGroup</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">ADGroup</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Msg_ContactAdmin</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Authenticated_Users</Field>
+          <Field Name="Value">HSE-Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!---End-->
+
         <!-- IR01DI-->
         <Row>
           <Field Name="Title">IR01DIFormLink</Field>
@@ -242,41 +276,7 @@
         </Row>
         <!---->
 
-        <!--Application Data-->
-        <!--FFL-->
-        <Row>
-          <Field Name="Title">SMTP</Field>
-          <Field Name="Value">192.168.100.9</Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-        <Row>
-          <Field Name="Title">HSE_Approvers</Field>
-          <Field Name="Value">HSE-Members</Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-        <Row>
-          <Field Name="Title">MasterGroup</Field>
-          <Field Name="Value">HSE-Members</Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-
-        <Row>
-          <Field Name="Title">ADGroup</Field>
-          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-        <Row>
-          <Field Name="Title">Msg_ContactAdmin</Field>
-          <Field Name="Value"></Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-        <Row>
-          <Field Name="Title">Authenticated_Users</Field>
-          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
-          <Field Name="SortOrder">1</Field>
-        </Row>
-
-
+       
         <!--Access Denied-->
         <Row>
           <Field Name="Title">Access_Denied</Field>

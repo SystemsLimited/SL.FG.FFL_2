@@ -27,25 +27,25 @@
         Function.createDelegate(this, this.failed));
 
 
-    var clientContext2 = new SP.ClientContext();
-    var targetListName2 = "Section";
-    var targetList2 = clientContext2.get_web().get_lists().getByTitle(targetListName2);
+    //var clientContext2 = new SP.ClientContext();
+    //var targetListName2 = "Section";
+    //var targetList2 = clientContext2.get_web().get_lists().getByTitle(targetListName2);
 
-    query = "<View>\
-                <Query>\
-                    <OrderBy Override='TRUE';><FieldRef Name='Title'/></OrderBy>\
-                </Query>\
-            </View>";
+    //query = "<View>\
+    //            <Query>\
+    //                <OrderBy Override='TRUE';><FieldRef Name='Title'/></OrderBy>\
+    //            </Query>\
+    //        </View>";
 
-    camlQuery.set_viewXml(query);
+    //camlQuery.set_viewXml(query);
 
-    var targetListItems2 = targetList2.getItems(camlQuery);
+    //var targetListItems2 = targetList2.getItems(camlQuery);
 
-    clientContext2.load(targetListItems2, 'Include(ID,Title)');
+    //clientContext2.load(targetListItems2, 'Include(ID,Title)');
 
-    clientContext2.executeQueryAsync(
-        Function.createDelegate(this, function () { success_Section(targetListItems2); }),
-        Function.createDelegate(this, this.failed));
+    //clientContext2.executeQueryAsync(
+    //    Function.createDelegate(this, function () { success_Section(targetListItems2); }),
+    //    Function.createDelegate(this, this.failed));
 }
 
 
